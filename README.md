@@ -19,7 +19,6 @@ arbitrarily. Please don't expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Day-to-Day Work of a Software Engineer](#day-to-day-work-of-a-software-engineer)
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
@@ -137,6 +136,7 @@ arbitrarily. Please don't expect it to be polished.
 - [People and Organizations](#people-and-organizations)
   - [Everyone is busy](#everyone-is-busy)
   - [Solving Problems with Cash](#solving-problems-with-cash)
+  - [The Paradox of Rushing in Software/Systems Engineering](#the-paradox-of-rushing-in-softwaresystems-engineering)
   - [Four seasons](#four-seasons)
 - [Standards](#standards)
   - [Idealized standards vs. practical implementation](#idealized-standards-vs-practical-implementation)
@@ -1539,6 +1539,37 @@ rather than covering everything.
 ### Solving Problems with Cash
 
 Every engineering problem can be solved with an infinite amount of cash.
+
+### The Paradox of Rushing in Software/Systems Engineering
+
+Attempting to accelerate development often leads to greater delays. In highly
+complex systems, skipping thorough validation, testing, or review processes can
+result in unforeseen issues, requiring extensive rework and ultimately
+prolonging the timeline beyond what a steady, methodical approach would have
+taken.
+
+There is one [parable](https://howtopracticezen.org/Advanced%20Zen/) that sounds
+like this:
+
+> Zen teachers often tell the story of a young monk who asked a Zen master:
+>
+> “How long will it take me to attain enlightenment?” The master thought for a
+> few moments and replied: “About ten years.” The young monk was upset and said:
+> “But you are assuming I am like the other monks, and I am not. I will practice
+> with great determination.” “In that case,” replied the Master, “twenty years.”
+
+and a [similar one](https://martialarts.stackexchange.com/a/7133/7133):
+
+> ... "But if I work hard, how many years will it take to become a master?"
+> persisted the youth.
+>
+> "Oh, maybe thirty years," said Banzo.
+>
+> "Why is that?" asked Matajuro. "First you say ten and now thirty years. I will
+> undergo any hardship to master this art in the shortest time!"
+>
+> "Well," said Banzo, "in that case you will have to remain with me for seventy
+> years. A man in such a hurry as you are to get results seldom learns quickly."
 
 ### Four seasons
 
