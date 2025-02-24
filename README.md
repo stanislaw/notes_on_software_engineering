@@ -133,6 +133,7 @@ arbitrarily. Please don't expect it to be polished.
 - [Systems](#systems)
   - [Good enough is often best](#good-enough-is-often-best)
   - [Designing Systems for Effective Work](#designing-systems-for-effective-work)
+  - [The Risk of Default Outcomes](#the-risk-of-default-outcomes)
 - [People and Organizations](#people-and-organizations)
   - [Everyone is busy](#everyone-is-busy)
   - [Solving Problems with Cash](#solving-problems-with-cash)
@@ -1503,6 +1504,21 @@ efficiency of the airspace.
 > Rather than trying to find extraordinarypeople to do a job, design the job so
 > that ordinary people can do it well. It is the structure of the system that
 > creates the results. For better results, change the structure of the system.
+
+### The Risk of Default Outcomes
+
+Unresolved trade-offs, especially those that persist over long periods, can be
+risky. Decisions left undecided, such as whether to build or buy critical
+hardware, will not remain open forever. Instead, they tend to resolve themselves
+by default, often in bad ways, whether due to inertia, external pressures, or
+short-term needs. Like a coin that always falls on a side, an undecided
+trade-off will eventually land on an outcome which might not align with
+strategic goals.
+
+To mitigate this risk, individuals, managers, teams, and organizations should
+proactively track and resolve open decisions, ensuring that critical choices are
+made deliberately rather than by default. Tools such as an Open Questions Log or
+a Risk Registry can support the structured resolution of such trade-offs.
 
 ## People and Organizations
 
