@@ -114,6 +114,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Provide Drivers Alongside Your Hardware](#provide-drivers-alongside-your-hardware)
   - [Provide Simulators Alongside Your Hardware](#provide-simulators-alongside-your-hardware)
 - [Documentation](#documentation)
+  - [The Illusion of Easy Documentation](#the-illusion-of-easy-documentation)
   - [Less prose, more structure](#less-prose-more-structure)
   - [Too Much Structure Overload](#too-much-structure-overload)
   - [Encyclopedic Document](#encyclopedic-document)
@@ -1257,8 +1258,10 @@ great option, as these languages integrate well with embedded environments.
 
 ## Documentation
 
-- Good documentation is dry and boring. This can create an illusion that writing
-  good documentation is easy when in fact it is not.
+### The Illusion of Easy Documentation
+
+Good documentation is dry and boring. This can create an illusion that writing
+good documentation is easy when in fact it is not.
 
 ### Less prose, more structure
 
