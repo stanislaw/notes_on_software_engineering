@@ -91,7 +91,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Lack of Knowledge II](#lack-of-knowledge-ii)
   - [Goodwill vs Pain](#goodwill-vs-pain)
 - [Biases](#biases)
-  - [The Working-So-It's-Right Bias](#the-working-so-its-right-bias)
+  - [If It Works, Then It Works Bias](#if-it-works-then-it-works-bias)
   - [The Fix Bias](#the-fix-bias)
   - [Resolving Merge Conflict Bias](#resolving-merge-conflict-bias)
 - [Reliability](#reliability)
@@ -1077,16 +1077,37 @@ goodwill.
 
 ## Biases
 
-### The Working-So-It's-Right Bias
+### If It Works, Then It Works Bias
 
-The issue lies in assuming that a previous solution or setup is correct simply
-because it works. This leads to a lack of scrutiny, where the existing solution
-or setup is not questioned, and investigations proceed based on a flawed
-premise.
+One of the common cognitive biases in engineering is the assumption that if
+something works, it must be good enough. This belief often surfaces during
+reviews of code, design, or systems that have passed tests or are known to
+function under specific conditions. It takes conscious effort to question
+something that already appears successful.
+
+But just because something works under one set of constraints does not mean it
+will hold up under others. Often, "it works" simply means "it works here and
+now".
+
+To counter this bias, reviewers should look beyond surface-level functionality
+and ask:
+
+- It works with a file of size X. What about 10X or 100X?
+- It works under normal conditions. What about a slow network or high CPU load?
+- It works on Linux. Will it behave the same on embedded hardware?
+
+This bias also affects how we treat existing systems. A solution that "has
+always worked" may be treated as correct by default, leading to investigations
+based on flawed assumptions and missed problems that emerge under different
+circumstances.
+
+There's no silver bullet for overcoming this bias. The key is maintaining
+deliberate skepticism and making a habit of viewing solutions from multiple
+angles.
 
 ### The Fix Bias
 
-When reviewing a pull request titled "Fixes XYZ," there is a natural tendency to
+When reviewing a pull request titled "Fixes XYZ", there is a natural tendency to
 trust the new change more than the existing code. This bias arises from the
 assumption that the previous implementation was flawed simply because it is
 being replaced. As a result, one might overlook the consequences of the fix or
@@ -1201,7 +1222,7 @@ must rely on real users to test in the wild.
 
 "If you can't measure it, then it can't be called engineering" (Ivar Jacobson,
 Object-Oriented Software Engineering: A Use Case Driven Approach). We can
-interpret "measure" as "test," with testing serving as both a form of
+interpret "measure" as "test", with testing serving as both a form of
 measurement and a core part of engineering.
 
 ### Improve Testability
@@ -1572,22 +1593,22 @@ like this:
 
 > Zen teachers often tell the story of a young monk who asked a Zen master:
 >
-> “How long will it take me to attain enlightenment?” The master thought for a
-> few moments and replied: “About ten years.” The young monk was upset and said:
-> “But you are assuming I am like the other monks, and I am not. I will practice
-> with great determination.” “In that case,” replied the Master, “twenty years.”
+> "How long will it take me to attain enlightenment?" The master thought for a
+> few moments and replied: "About ten years." The young monk was upset and said:
+> "But you are assuming I am like the other monks, and I am not. I will practice
+> with great determination." "In that case", replied the Master, "twenty years."
 
 and a [similar one](https://martialarts.stackexchange.com/a/7133/7133):
 
 > ... "But if I work hard, how many years will it take to become a master?"
 > persisted the youth.
 >
-> "Oh, maybe thirty years," said Banzo.
+> "Oh, maybe thirty years", said Banzo.
 >
 > "Why is that?" asked Matajuro. "First you say ten and now thirty years. I will
 > undergo any hardship to master this art in the shortest time!"
 >
-> "Well," said Banzo, "in that case you will have to remain with me for seventy
+> "Well", said Banzo, "in that case you will have to remain with me for seventy
 > years. A man in such a hurry as you are to get results seldom learns quickly."
 
 ### Four seasons
