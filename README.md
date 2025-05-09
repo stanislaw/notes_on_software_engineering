@@ -19,6 +19,7 @@ arbitrarily. Please don't expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Day-to-Day Work of a Software Engineer](#day-to-day-work-of-a-software-engineer)
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
@@ -92,6 +93,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Goodwill vs Pain](#goodwill-vs-pain)
 - [Biases](#biases)
   - [If It Works, Then It Works Bias](#if-it-works-then-it-works-bias)
+  - [Focusing only on what's most visible bias](#focusing-only-on-whats-most-visible-bias)
   - [The Fix Bias](#the-fix-bias)
   - [Resolving Merge Conflict Bias](#resolving-merge-conflict-bias)
 - [Reliability](#reliability)
@@ -242,8 +244,8 @@ especially when a company diversifies into a highly successful product unrelated
 to its core business. Innovating in too many areas can compromise the core
 product and cause missed deadlines.
 
-For a great explanation, refer to this [Boring Technology presentation]
-(https://boringtechnology.club/).
+For a great explanation, refer to this
+[Boring Technology presentation](https://boringtechnology.club/).
 
 ### Automate everything
 
@@ -1107,7 +1109,19 @@ angles.
 
 ### Focusing only on what's most visible bias
 
-The tendency to concentrate a review or investigation on the most obvious, observable, or symptomatic parts of a system, rather than systematically considering all potential contributing factors. This can lead to overlooking the true root cause, especially if it's hidden in a less familiar or less accessible area. Before jumping on a specific part of the problem or solution, first step back and consider the bigger picture — which blocks in general might be involved. As per the common saying: "Don't look only where there is light". In practice, this means listing all possible contributors to a problem in the form of a block diagram or any other simple sketch that collects both the symptoms and relevant system parts. It can also help to annotate each block with relevant properties — for example, in a performance investigation, adding performance characteristics per block can highlight which parts are likely causes, not just the ones that appear most problematic.
+The tendency to concentrate a review or investigation on the most obvious,
+observable, or symptomatic parts of a system, rather than systematically
+considering all potential contributing factors. This can lead to overlooking the
+true root cause, especially if it's hidden in a less familiar or less accessible
+area. Before jumping on a specific part of the problem or solution, first step
+back and consider the bigger picture — which blocks in general might be
+involved. As per the common saying: "Don't look only where there is light". In
+practice, this means listing all possible contributors to a problem in the form
+of a block diagram or any other simple sketch that collects both the symptoms
+and relevant system parts. It can also help to annotate each block with relevant
+properties — for example, in a performance investigation, adding performance
+characteristics per block can highlight which parts are likely causes, not just
+the ones that appear most problematic.
 
 ### The Fix Bias
 
