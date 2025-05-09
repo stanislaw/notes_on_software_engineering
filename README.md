@@ -1105,6 +1105,10 @@ There's no silver bullet for overcoming this bias. The key is maintaining
 deliberate skepticism and making a habit of viewing solutions from multiple
 angles.
 
+### Focusing only on what's most visible bias
+
+The tendency to concentrate a review or investigation on the most obvious, observable, or symptomatic parts of a system, rather than systematically considering all potential contributing factors. This can lead to overlooking the true root cause, especially if it's hidden in a less familiar or less accessible area. Before jumping on a specific part of the problem or solution, first step back and consider the bigger picture — which blocks in general might be involved. As per the common saying: "Don't look only where there is light". In practice, this means listing all possible contributors to a problem in the form of a block diagram or any other simple sketch that collects both the symptoms and relevant system parts. It can also help to annotate each block with relevant properties — for example, in a performance investigation, adding performance characteristics per block can highlight which parts are likely causes, not just the ones that appear most problematic.
+
 ### The Fix Bias
 
 When reviewing a pull request titled "Fixes XYZ", there is a natural tendency to
