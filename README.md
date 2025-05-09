@@ -55,6 +55,7 @@ arbitrarily. Please don't expect it to be polished.
   - [One Pattern per Class](#one-pattern-per-class)
   - [Archetype](#archetype)
   - [Prima Materia](#prima-materia)
+  - [Mature automation](#mature-automation)
   - ["Magic" is automation that is not adequate](#magic-is-automation-that-is-not-adequate)
   - [Poisonous Systems](#poisonous-systems)
   - [Bad Design in House](#bad-design-in-house)
@@ -650,6 +651,17 @@ pattern/architecture/solution and put it back into
 [Prima Materia](https://en.wikipedia.org/wiki/Prima_materia) state and only then
 thansform it into a something new. Metaphors similar to Prima Materia are
 "primordial soup" and "indifferentiated soup of ideas" (Eric Evans - DDD).
+
+### Mature automation
+
+Mature automation allows itself to be observed, inspected, and overridden. Even
+if something is automated and usually works well, there should always be a way
+to turn it off or adjust it when needed. Good automation is transparent – you
+can see what it is doing, understand how it works, troubleshoot problems, and
+make changes if necessary. In some situations, it is important to bypass
+automation entirely and take manual control or use an alternative path. Systems
+that do not allow this create unnecessary friction and risk. Automation should
+support people, not trap them.
 
 ### "Magic" is automation that is not adequate
 
