@@ -315,7 +315,7 @@ others can understand your work without extra effort. A good test for
 explicitness is whether understanding is immediate, with no mental effort or
 blockers when going through the material.
 
-### Close the loops
+### Close the loops, acknowledge communication
 
 A "loop" refers to any situation where one action is followed by another that
 resolves the first action in some way. Often, these loops are explicitly called
