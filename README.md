@@ -19,22 +19,29 @@ arbitrarily. Please don't expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Day-to-Day Work of a Software Engineer](#day-to-day-work-of-a-software-engineer)
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
-  - [Habitability](#habitability)
+  - [Look Outside Your Immediate Task, Maintain the Bigger Picture](#look-outside-your-immediate-task-maintain-the-bigger-picture)
   - [Avoid Work That Can Be Avoided](#avoid-work-that-can-be-avoided)
+  - [Understand and Respect the Customer](#understand-and-respect-the-customer)
   - [Choose Where to Innovate (Carefully)](#choose-where-to-innovate-carefully)
   - [Automate everything](#automate-everything)
   - [Quick exploration](#quick-exploration)
   - [Task Sequencing: Group Related Activities for Efficiency](#task-sequencing-group-related-activities-for-efficiency)
   - [Strive for Clarity](#strive-for-clarity)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
-  - [Close the loops](#close-the-loops)
+  - [Close the loops, acknowledge communication](#close-the-loops-acknowledge-communication)
   - [Learn from Lessons](#learn-from-lessons)
   - [Use Diagrams](#use-diagrams)
+- [Communication and Teamwork](#communication-and-teamwork)
+  - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
+  - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
+  - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
+  - [Recognize the ideas and achievements of your colleagues](#recognize-the-ideas-and-achievements-of-your-colleagues)
+  - [Professional content](#professional-content)
+  - [Loop in Experts for Important Actions](#loop-in-experts-for-important-actions)
 - [Complexity and Cognitive Load](#complexity-and-cognitive-load)
   - [Solving Right Problems](#solving-right-problems)
   - [Solutions are Context-Driven](#solutions-are-context-driven)
@@ -50,6 +57,7 @@ arbitrarily. Please don't expect it to be polished.
 - [Design](#design)
   - [Poor Abstraction](#poor-abstraction)
   - [Cost of Abstraction](#cost-of-abstraction)
+  - [Habitability](#habitability)
   - [Hard Feature](#hard-feature)
   - [True Name](#true-name)
   - [One Pattern per Class](#one-pattern-per-class)
@@ -128,12 +136,6 @@ arbitrarily. Please don't expect it to be polished.
   - [Capturing Meeting Results](#capturing-meeting-results)
   - [Briefing In](#briefing-in)
   - [Sharing Screen & Presenting Material](#sharing-screen--presenting-material)
-- [Communication and Teamwork](#communication-and-teamwork)
-  - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
-  - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
-  - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
-  - [Recognize the ideas and achievements of your colleagues](#recognize-the-ideas-and-achievements-of-your-colleagues)
-  - [Professional content](#professional-content)
 - [Systems](#systems)
   - [Good enough is often best](#good-enough-is-often-best)
   - [Designing Systems for Effective Work](#designing-systems-for-effective-work)
@@ -199,22 +201,34 @@ See also Kent Beck's
 [Test-Driven Development book](https://en.wikipedia.org/wiki/Test-Driven_Development_by_Example)
 where this approach of doing simple things is explained at great depth.
 
-### Habitability
+### Look Outside Your Immediate Task, Maintain the Bigger Picture
 
-Habitable software is better than perfect software.
+- When starting any task, take time to understand the rationale behind it (the
+  WHY).
+- See how the task connects to broader goals, milestones, or parallel efforts.
+  It may be part of a chain where upstream or downstream effects matter.
+- Maintain awareness of the bigger picture. A task that seems minor may be a
+  critical blocker for a more visible effort. Conversely, something that appears
+  simple might turn out to be time-consuming and affect teammates or
+  dependencies.
+- With a deep understanding of the task, you will start seeing how different
+  strategies (e.g., Strategy X vs. Strategy Y) can lead to different outcomes.
+  This kind of insight allows you to:
 
-[Richard Gabriel - Patterns of Software, Habitability and Piecemeal Growth](https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf).
+  - Escalate risks early.
+  - Spot opportunities.
+  - Align better with the system's or team's needs.
 
-> Habitability is the characteristic of source code that enables programmers,
-> coders, bug-fixers, and people coming to the code later in its life to
-> understand its construction and intentions and to change it comfortably and
-> confidently. Either there is more to habitability than clarity or the two
-> characteristics are different...
+A practical application of this mindset in documentation writing: start each
+technical page with a clear problem statement and a description of its
+surrounding context.
 
-> ...Habitability makes a place livable, like home. And this is what we want in
-> software – that developers feel at home, can place their hands on any item
-> without having to think deeply about where it is. It's something like clarity,
-> but clarity is too hard to come by.
+- Who or what benefits if this task is completed?
+- Does it enable a system, a process, or a team?
+- What is the strategic value of solving it?
+
+Framing the problem this way helps readers, especially future engineers, orient
+themselves and understand the significance of the solution that follows.
 
 ### Avoid Work That Can Be Avoided
 
@@ -237,6 +251,22 @@ off-the-shelf system.
 
 In software development, there's a well-known saying: "The best code is the code
 that is never written".
+
+### Understand and Respect the Customer
+
+Take time to deeply understand and respect the customer, both the people and the
+domain they operate in. Immerse yourself in their context. Know what they care
+about, what problems they face, and how your work fits into their world.
+
+When things go smoothly, this understanding helps you deliver real value. When
+things get challenging, such as when delays or technical setbacks arise, this
+relationship matters even more.
+
+In such situations, transparency is better than defensiveness. A clear and
+honest update, even when delivering bad news, builds trust. Customers almost
+always prefer being informed early over being surprised later. A transparent
+explanation of issues, trade-offs, and risks shows respect for their time,
+planning, and decision-making.
 
 ### Choose Where to Innovate (Carefully)
 
@@ -270,8 +300,8 @@ locate the most relevant section rather than reading from A to Z.
 When exploring with code, a combination of quick-and-dirty scripts can sometimes
 create miracles, giving immediate and valuable insights. Instead of discarding
 an idea because it's complex and time-consuming, try implementing a very basic
-version first—it might provide useful insights or even a functional solution
-right away.
+version first because it might provide useful insights or even a functional
+solution right away.
 
 ### Task Sequencing: Group Related Activities for Efficiency
 
@@ -408,6 +438,121 @@ like rectangles and arrows, avoid excessive colors or different shapes, and
 express your concepts with the fewest visual elements possible. Creating
 diagrams that are too visually complex hinders understanding and reduces their
 effectiveness.
+
+## Communication and Teamwork
+
+### Agile Software Development Requires Strong Social Network
+
+**Agile Software Development Requires Strong Social Network**. This statement is
+a generalization: This idea has been there from the beginning and since the
+inception of the [Agile Manifesto](https://agilemanifesto.org/), but the
+following quote from Kent Beck helps to pinpoint it very clearly:
+
+> In The Forest (more specifically on an XP-style team), we handle communication
+> of design & implementation multiple ways:
+>
+> - Communicative code.
+> - Readable & predictive tests.
+> - A strong social network.
+>
+> It's only when there is a large audience for stable information (such as the
+> JUnit API) that we resort to separate documentation.
+
+See
+[Kent Beck - Anatomy of Oscillation](https://tidyfirst.substack.com/p/anatomy-of-oscillation).
+
+### Sending Status Updates to the Team
+
+Software engineering teams often communicate daily via chat. A proven pattern is
+for each team member to send updates about their work, allowing the entire team
+to see these messages.
+
+Examples of such messages include:
+
+- "Task X is done, here's the PR link. @A and @B, could you take a look?"
+- "This week my focus is... Next, I am going to work on..."
+- "I see your PR, but I'm working on something else."
+- "What does the team think about introducing the coding convention ABC?"
+
+While this may seem obvious for some teams, there are others where daily chats
+are completely silent, reflecting a lack of communication between peers
+throughout the day. When messages are exchanged, it creates a certain "pulse"
+within the team, signaling that the group is actively working on meaningful
+tasks and is open to discussion, iteration, and improvement.
+
+This activity not only serves an informational purpose (increasing awareness)
+but also has learning, motivational, and even entertaining aspects.
+
+### Keep Everyone in the Loop
+
+Share regular updates with the people who rely on your work: your manager,
+teammates, or anyone following your technical progress. In fast-moving projects,
+keeping others informed helps avoid surprises and keeps everyone aligned.
+
+In an office setting, updates often happen naturally. If the team is
+well-connected, these updates may happen through casual conversations or small
+talk over lunch. This kind of informal communication spreads useful information
+without needing formal meetings.
+
+One big advantage: by the time your work reaches a review—like a code review,
+documentation review, or a project milestone—people will already know about it
+and may have given input earlier. This makes reviews faster, smoother, and less
+stressful.
+
+Another reason to talk about your work: visibility and recognition. Others might
+not know:
+
+- what challenges you re facing
+- how long something might take
+- how your work connects to theirs.
+
+Your teammates are often busy with their own tasks. Clear communication helps
+them understand what you are doing and helps your work get noticed and
+appreciated.
+
+Stay connected. Stay aligned.
+
+### Recognize the ideas and achievements of your colleagues
+
+Teamwork involves contributions from all team members. Whether you are a leader
+or an individual contributor, it is essential to give credit where it's due when
+expressing an idea that you know was authored by someone else.
+
+This is a good practice because it fosters trust and respect within the team,
+encouraging open collaboration and the free exchange of ideas. Recognizing
+others' contributions also boosts morale, motivates continued input, and
+strengthens the overall effectiveness of the team.
+
+An anti-pattern is when the names of the original authors are omitted, and the
+work is presented in the first person, either intentionally or unintentionally,
+as if the content were one's own.
+
+### Professional content
+
+When writing an email or chat message, even if addressed to a select group,
+consider composing it in a way that it would remain professional and consistent
+if shared with a larger or unintended audience. Avoid using vague references
+like "we" and "they", especially when referring to internal teams or external
+parties such as customers. Refrain from using negative sentences or excessive
+emotion. Your content should be polished and ready to be forwarded by anyone, at
+any time, whether intentionally or unintentionally.
+
+### Loop in Experts for Important Actions
+
+When making an important decision, involve the right experts. It is better to
+include too many people than to miss someone who should have been part of it.
+
+If you are writing an email or message that speaks for your team or group, check
+it with others first. Make sure the message reflects what everyone agrees on.
+
+When a message is aligned like this, it:
+
+- Stays strong even if people question it.
+- Builds trust inside and outside the team.
+- Shows that the team is working together.
+
+Taking the time to check with others makes your message clearer and more
+powerful in the long run.
 
 ## Complexity and Cognitive Load
 
@@ -606,6 +751,23 @@ consume too much of the decision space – can quickly lead to over-engineering.
 Those responsible for maintaining such systems often find themselves
 disentangling unnecessary complexity, seeking a new balance that restores
 manageability by replacing or introducing more adequate abstractions.
+
+### Habitability
+
+Habitable software is better than perfect software.
+
+[Richard Gabriel - Patterns of Software, Habitability and Piecemeal Growth](https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf).
+
+> Habitability is the characteristic of source code that enables programmers,
+> coders, bug-fixers, and people coming to the code later in its life to
+> understand its construction and intentions and to change it comfortably and
+> confidently. Either there is more to habitability than clarity or the two
+> characteristics are different...
+
+> ...Habitability makes a place livable, like home. And this is what we want in
+> software – that developers feel at home, can place their hands on any item
+> without having to think deeply about where it is. It's something like clarity,
+> but clarity is too hard to come by.
 
 ### Hard Feature
 
@@ -1446,95 +1608,6 @@ Common pitfalls:
   content.
 - If your team is presenting to an external party, align on the materials
   beforehand to ensure consistency in messaging.
-
-## Communication and Teamwork
-
-### Agile Software Development Requires Strong Social Network
-
-**Agile Software Development Requires Strong Social Network**. This statement is
-a generalization: This idea has been there from the beginning and since the
-inception of the [Agile Manifesto](https://agilemanifesto.org/), but the
-following quote from Kent Beck helps to pinpoint it very clearly:
-
-> In The Forest (more specifically on an XP-style team), we handle communication
-> of design & implementation multiple ways:
->
-> - Communicative code.
-> - Readable & predictive tests.
-> - A strong social network.
->
-> It's only when there is a large audience for stable information (such as the
-> JUnit API) that we resort to separate documentation.
-
-See
-[Kent Beck - Anatomy of Oscillation](https://tidyfirst.substack.com/p/anatomy-of-oscillation).
-
-### Sending Status Updates to the Team
-
-Software engineering teams often communicate daily via chat. A proven pattern is
-for each team member to send updates about their work, allowing the entire team
-to see these messages.
-
-Examples of such messages include:
-
-- "Task X is done, here's the PR link. @A and @B, could you take a look?"
-- "This week my focus is... Next, I am going to work on..."
-- "I see your PR, but I'm working on something else."
-- "What does the team think about introducing the coding convention ABC?"
-
-While this may seem obvious for some teams, there are others where daily chats
-are completely silent, reflecting a lack of communication between peers
-throughout the day. When messages are exchanged, it creates a certain "pulse"
-within the team, signaling that the group is actively working on meaningful
-tasks and is open to discussion, iteration, and improvement.
-
-This activity not only serves an informational purpose (increasing awareness)
-but also has learning, motivational, and even entertaining aspects.
-
-### Keep Everyone in the Loop
-
-Provide frequent updates to those who rely on your work – your manager,
-teammates, or anyone following your technical progress. In fast-paced
-development, keeping others informed helps maintain alignment and prevent
-surprises.
-
-In an office setting, updates often happen naturally. If the team is
-well-connected, they can happen during casual conversations or even small talk
-over lunch. This kind of informal communication spreads information quickly
-without the need for formal status meetings.
-
-A key benefit of this approach is that by the time your work reaches a review
-stage – whether a code review, documentation review, or project
-milestone—everyone will already be familiar with it and may have contributed
-their input. This reduces friction, speeds up approvals, and makes collaboration
-smoother.
-
-Stay aligned with your team.
-
-### Recognize the ideas and achievements of your colleagues
-
-Teamwork involves contributions from all team members. Whether you are a leader
-or an individual contributor, it is essential to give credit where it's due when
-expressing an idea that you know was authored by someone else.
-
-This is a good practice because it fosters trust and respect within the team,
-encouraging open collaboration and the free exchange of ideas. Recognizing
-others' contributions also boosts morale, motivates continued input, and
-strengthens the overall effectiveness of the team.
-
-An anti-pattern is when the names of the original authors are omitted, and the
-work is presented in the first person, either intentionally or unintentionally,
-as if the content were one's own.
-
-### Professional content
-
-When writing an email or chat message, even if addressed to a select group,
-consider composing it in a way that it would remain professional and consistent
-if shared with a larger or unintended audience. Avoid using vague references
-like "we" and "they", especially when referring to internal teams or external
-parties such as customers. Refrain from using negative sentences or excessive
-emotion. Your content should be polished and ready to be forwarded by anyone, at
-any time, whether intentionally or unintentionally.
 
 ## Systems
 
