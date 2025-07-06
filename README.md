@@ -32,6 +32,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Quick exploration](#quick-exploration)
   - [Stay Curious and Explore](#stay-curious-and-explore)
   - [Task Sequencing: Group Related Activities for Efficiency](#task-sequencing-group-related-activities-for-efficiency)
+  - [Plant the Tasks, Let the Mind Work](#plant-the-tasks-let-the-mind-work)
   - [Strive for Clarity](#strive-for-clarity)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
@@ -327,6 +328,23 @@ One useful pattern is the 'Inbox' approach, where input is first collected and
 then executed upon. For example, when writing a technical document, split the
 task of gathering the document content (the 'Inbox' with bullet points) from the
 task of formulating and spelling out each individual content item.
+
+### Plant the Tasks, Let the Mind Work
+
+When you are overloaded with several non-trivial tasks, try starting all of them
+by just 10–20%, then switch between them. The goal is to build an initial
+understanding for each task and give your mind time to work on them in the
+background (what people often call "sleeping on it").
+
+The subconscious is an interesting mechanism: when given a few active problems
+to process, it starts building structure around them even when you are not
+focused on them directly. Later, continuing from that 10–20% starting point
+often feels much easier. The process can be repeated from 10–20% to 30–40% to
+50–60% and so on.
+
+This approach also helps with communication: once you've started a task, you're
+already in a position to ask questions, clarify assumptions, or unblock others
+who depend on your output.
 
 ### Strive for Clarity
 
