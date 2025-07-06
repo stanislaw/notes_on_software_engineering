@@ -228,21 +228,21 @@ Point of View for more context.
 
 ### Look Outside Your Immediate Task, Maintain the Bigger Picture
 
-- When starting any task, take time to understand the rationale behind it (the
-  WHY).
-- See how the task connects to broader goals, milestones, or parallel efforts.
-  It may be part of a chain where upstream or downstream effects matter.
-- Maintain awareness of the bigger picture. A task that seems minor may be a
-  critical blocker for a more visible effort. Conversely, something that appears
-  simple might turn out to be time-consuming and affect teammates or
-  dependencies.
-- With a deep understanding of the task, you will start seeing how different
-  strategies (e.g., Strategy X vs. Strategy Y) can lead to different outcomes.
-  This kind of insight allows you to:
+When starting any task, take time to understand the rationale behind it (the
+WHY). See how the task connects to broader goals, milestones, or parallel
+efforts. It may be part of a chain where upstream or downstream effects matter.
 
-  - Escalate risks early.
-  - Spot opportunities.
-  - Align better with the system's or team's needs.
+Maintain awareness of the bigger picture. A task that seems minor may be a
+critical blocker for a more visible effort. Conversely, something that appears
+simple might turn out to be time-consuming and affect teammates or dependencies.
+
+With a deep understanding of the task, you will start seeing how different
+strategies (e.g., Strategy X vs. Strategy Y) can lead to different outcomes.
+This kind of insight allows you to:
+
+- Escalate risks early.
+- Spot opportunities.
+- Align better with the system's or team's needs.
 
 A practical application of this mindset in documentation writing: start each
 technical page with a clear problem statement and a description of its
