@@ -699,10 +699,28 @@ start working with the Periphery. By cleaning up the periphery, you'll often
 find that the core problem becomes clearer and more approachable.
 
 A good example is legacy code: issues in the periphery, such as poor variable
-names, incorrect class responsibilities (even those distant from your immediate
-problem), or a disorganized folder structure, may seem irrelevant to the core
-issue. However, they still contribute to the cognitive overload. Fixing them
-will help clear the path for your actual work.
+names, bad code formatting, or a disorganized folder structure, may seem
+irrelevant to the core issue. However, they still contribute to the cognitive
+overload.
+
+Unclear or messy periphery can be a constant attention sink. It leads to
+mistakes, confusion, and delays, especially when teams don't take the time to
+fix it. Recognizing periphery issues and acting on them is a skill in itself. It
+helps to keep your mental state clear and reduces unnecessary mental work.
+
+Some examples of periphery issues:
+
+- **Naming**. Folders, files, documents, tools, and conventions. Poor or
+  inconsistent naming alone can create significant noise.
+
+- **Code formatting**. Inconsistent or sloppy formatting adds friction for
+  everyone.
+
+- **Structure**. Disorganized codebases or documentation make it hard to find
+  and understand things. See also: "Encyclopedic Document".
+
+- **Responsibilities**. Incorrect or unclear class and component
+  responsibilities, even far from your immediate task, add to cognitive load.
 
 Another word for Periphery is Background, see also
 [Deconcentation of Attention](http://deconcentration-of-attention.com/).
