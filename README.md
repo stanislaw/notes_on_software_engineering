@@ -19,7 +19,8 @@ arbitrarily. Please don't expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Day-to-Day Work of a Software Engineer](#day-to-day-work-of-a-software-engineer)
+
+- [Day-to-Day Work](#day-to-day-work)
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
@@ -29,19 +30,26 @@ arbitrarily. Please don't expect it to be polished.
   - [Choose Where to Innovate (Carefully)](#choose-where-to-innovate-carefully)
   - [Automate everything](#automate-everything)
   - [Quick exploration](#quick-exploration)
+  - [Stay Curious and Explore](#stay-curious-and-explore)
   - [Task Sequencing: Group Related Activities for Efficiency](#task-sequencing-group-related-activities-for-efficiency)
   - [Strive for Clarity](#strive-for-clarity)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
-  - [Close the loops, acknowledge communication](#close-the-loops-acknowledge-communication)
+  - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
   - [Use Diagrams](#use-diagrams)
-- [Communication and Teamwork](#communication-and-teamwork)
+- [Teamwork and Communication](#teamwork-and-communication)
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
+  - [Close the loops, acknowledge communication](#close-the-loops-acknowledge-communication)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
+  - [Talk in Person When You Can](#talk-in-person-when-you-can)
   - [Recognize the ideas and achievements of your colleagues](#recognize-the-ideas-and-achievements-of-your-colleagues)
+  - [Praise Good Work](#praise-good-work)
   - [Professional content](#professional-content)
   - [Loop in Experts for Important Actions](#loop-in-experts-for-important-actions)
+  - [Share What Works](#share-what-works)
+  - [Share and Improve Team Workflows](#share-and-improve-team-workflows)
+  - [Keep Team Knowledge Alive](#keep-team-knowledge-alive)
 - [Complexity and Cognitive Load](#complexity-and-cognitive-load)
   - [Solving Right Problems](#solving-right-problems)
   - [Solutions are Context-Driven](#solutions-are-context-driven)
@@ -126,6 +134,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Provide Simulators Alongside Your Hardware](#provide-simulators-alongside-your-hardware)
 - [Documentation](#documentation)
   - [The Illusion of Easy Documentation](#the-illusion-of-easy-documentation)
+  - [Software Design Document](#software-design-document)
   - [Less prose, more structure](#less-prose-more-structure)
   - [Too Much Structure Overload](#too-much-structure-overload)
   - [Encyclopedic Document](#encyclopedic-document)
@@ -167,7 +176,7 @@ arbitrarily. Please don't expect it to be polished.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Day-to-Day Work of a Software Engineer
+## Day-to-Day Work
 
 ### Leave Work Better: Improving Today for a Simpler Tomorrow
 
@@ -303,6 +312,12 @@ an idea because it's complex and time-consuming, try implementing a very basic
 version first because it might provide useful insights or even a functional
 solution right away.
 
+### Stay Curious and Explore
+
+Look around and see what is new in your field. If you find a cool project, check
+who made it and what else they have done. Go to conferences and events. Being
+curious helps you learn new things, meet new people, and get fresh ideas.
+
 ### Task Sequencing: Group Related Activities for Efficiency
 
 When sequencing tasks (especially repetitive ones), group related tasks together
@@ -345,46 +360,17 @@ others can understand your work without extra effort. A good test for
 explicitness is whether understanding is immediate, with no mental effort or
 blockers when going through the material.
 
-### Close the loops, acknowledge communication
+### Disown Your Work by Sharing It with the Team
 
-A "loop" refers to any situation where one action is followed by another that
-resolves the first action in some way. Often, these loops are explicitly called
-"feedback loops" because they are closed with feedback that resolves an
-outstanding action or state, such as marking it Done, OK, ACK, or something
-similar.
+Don't make yourself a bottleneck. If you know something complex, share it,
+explain it to the team, document it, or build it into tools and processes. The
+goal is to avoid being the only person who understands or owns a specific area.
+When knowledge is shared, the team becomes stronger and more resilient.
 
-Loops can exist in both developed systems and producing organizations.
-
-Examples of loops:
-
-- Answering an email from an existing email thread closes the loop created by
-  that thread.
-- Closing a Pull Request finalizes its status, either as Done or Won't do.
-- Closing a work item ticket to Done.
-
-A task manager is an excellent tool for tracking work items that need to be
-completed and closed. For tracking non-trivial project development topics and
-trade-offs, a useful practice is to maintain an "Open Questions Log" – a table
-where each unresolved or unclosed item is tracked by its current status until it
-is resolved.
-
-Sometimes a loop may never be closed, or it may be closed with a significant
-delay. Both scenarios can lead to potential problems or even hazards, depending
-on the type of system being developed.
-
-Note that 'Won't-do' is also a valid way to close the loop. For example, closing
-a Jira ticket with "Won't do" or "Won't fix" positively acknowledges that this
-work will no longer linger in someone's backlog.
-
-Not closing loops is often bad practice. Some examples include:
-
-- Not answering an email can cause project delays or result in the
-  implementation of a broken or inconsistent system, leading to incidents or
-  accidents in the future.
-- A missed or forgotten chat message may mean important information is never
-  delivered to a critical person.
-- A manager neglecting to follow up on an important topic raised by employees,
-  leaving it unresolved in an inbox without due attention.
+This doesn't mean giving up ownership. You can still lead and take full
+responsibility for a topic. But the results, details, and usage instructions
+should be part of the team's shared knowledge. Strong ownership and open
+knowledge go hand in hand.
 
 ### Learn from Lessons
 
@@ -439,7 +425,7 @@ express your concepts with the fewest visual elements possible. Creating
 diagrams that are too visually complex hinders understanding and reduces their
 effectiveness.
 
-## Communication and Teamwork
+## Teamwork and Communication
 
 ### Agile Software Development Requires Strong Social Network
 
@@ -483,6 +469,47 @@ tasks and is open to discussion, iteration, and improvement.
 This activity not only serves an informational purpose (increasing awareness)
 but also has learning, motivational, and even entertaining aspects.
 
+### Close the loops, acknowledge communication
+
+A "loop" refers to any situation where one action is followed by another that
+resolves the first action in some way. Often, these loops are explicitly called
+"feedback loops" because they are closed with feedback that resolves an
+outstanding action or state, such as marking it Done, OK, ACK, or something
+similar.
+
+Loops can exist in both developed systems and producing organizations.
+
+Examples of loops:
+
+- Answering an email from an existing email thread closes the loop created by
+  that thread.
+- Closing a Pull Request finalizes its status, either as Done or Won't do.
+- Closing a work item ticket to Done.
+
+A task manager is an excellent tool for tracking work items that need to be
+completed and closed. For tracking non-trivial project development topics and
+trade-offs, a useful practice is to maintain an "Open Questions Log" – a table
+where each unresolved or unclosed item is tracked by its current status until it
+is resolved.
+
+Sometimes a loop may never be closed, or it may be closed with a significant
+delay. Both scenarios can lead to potential problems or even hazards, depending
+on the type of system being developed.
+
+Note that 'Won't-do' is also a valid way to close the loop. For example, closing
+a Jira ticket with "Won't do" or "Won't fix" positively acknowledges that this
+work will no longer linger in someone's backlog.
+
+Not closing loops is often bad practice. Some examples include:
+
+- Not answering an email can cause project delays or result in the
+  implementation of a broken or inconsistent system, leading to incidents or
+  accidents in the future.
+- A missed or forgotten chat message may mean important information is never
+  delivered to a critical person.
+- A manager neglecting to follow up on an important topic raised by employees,
+  leaving it unresolved in an inbox without due attention.
+
 ### Keep Everyone in the Loop
 
 Share regular updates with the people who rely on your work: your manager,
@@ -512,6 +539,18 @@ appreciated.
 
 Stay connected. Stay aligned.
 
+### Talk in Person When You Can
+
+If something takes a lot to explain, talk in person instead of writing a long
+message. It is especially odd when people in the same office email each other
+about things they could easily discuss face to face. Quick conversations often
+save time and help avoid misunderstandings.
+
+Sometimes, in-person chats mean interrupting someone, and that can be tricky,
+especially if they are doing deep work. But often, if the topic involves both
+people and can be resolved quickly, a short conversation is worth the
+interruption and lets everyone get back to work with better clarity.
+
 ### Recognize the ideas and achievements of your colleagues
 
 Teamwork involves contributions from all team members. Whether you are a leader
@@ -526,6 +565,16 @@ strengthens the overall effectiveness of the team.
 An anti-pattern is when the names of the original authors are omitted, and the
 work is presented in the first person, either intentionally or unintentionally,
 as if the content were one's own.
+
+### Praise Good Work
+
+Don't hold back from saying "this is great" when a teammate does something
+impressive or puts in clear effort. This is especially important if you
+consistently deliver high-quality work and expect the same from others. You
+might give little feedback because excellence feels like the default. But even a
+simple "I see what you have done" can make a real difference. It shows their
+work is noticed and appreciated, and it helps build trust and connection within
+the team.
 
 ### Professional content
 
@@ -553,6 +602,35 @@ When a message is aligned like this, it:
 
 Taking the time to check with others makes your message clearer and more
 powerful in the long run.
+
+### Share What Works
+
+When something works well for you, don't keep it to yourself and share it with
+your team. Everyone has their own way of doing things, but your helpful habit or
+method might also work for others. A small improvement shared across a team can
+have a big impact.
+
+It is not always obvious what counts as a best practice. But if your approach
+makes things easier or more effective, and it is different from how others work,
+that could be a sign it is worth sharing or at least suggesting.
+
+### Share and Improve Team Workflows
+
+Try to make daily workflows something the whole team can share. Instead of
+everyone using their own custom scripts, set up a common, flexible system for
+tasking, development, testing, and debugging. Tools that are used and improved
+by many people evolve faster, and the whole team becomes more productive.
+
+### Keep Team Knowledge Alive
+
+Team knowledge and culture can fade over time, just like a person's memory.
+Important ways of working and shared values will not last unless they are
+repeated and practiced regularly. If not, they slowly disappear from the group's
+habits.
+
+To keep them alive, teams need to refresh what matters. Say the important things
+often. Practice them together. Repeating is not just a reminder, it is how a
+team holds on to what makes it strong.
 
 ## Complexity and Cognitive Load
 
@@ -1480,16 +1558,35 @@ great option, as these languages integrate well with embedded environments.
 Good documentation is dry and boring. This can create an illusion that writing
 good documentation is easy when in fact it is not.
 
+### Software Design Document
+
+No matter the industry, team size, or type of project, every software team
+should maintain a document that describes the design and architecture of the
+developed system. This document may vary in size — from a few pages to a large,
+detailed file — but its purpose is the same: to give any reader a high-level
+understanding of how the software is structured and how its key parts work
+together.
+
+A good approach is to organize it by topic or component, for example, one page
+per software component. Each section should clearly map to something real in the
+software, and vice versa. This helps ensure that every major concept or building
+block is documented, discoverable, and easy to reason about.
+
+This kind of document might be called a Design Document, Architecture Document,
+Design File, or similar, depending on the team or industry. Whatever the name,
+its role is the same: to serve as the central, navigable entry point into the
+software's structure and design.
+
 ### Less prose, more structure
 
 Technical documentation is supposed to focus engineer's attention on achieving a
 given goal such as to build a specific system. It is easier to focus one's
 attention on things that have structure embedded in them compared to things that
 are hidden in several paragraphs of prose. Prose has no structure and that is
-why a reader has to do an extra exercise of creating an order out of what he is
-reading. If the documentation already has an order in it, the reader can spend
-less time for a mental reconstruction of the content and focus on the technical
-facts more easily.
+why a reader has to do an extra exercise of creating an order out of what they
+are reading. If the documentation already has an order in it, the reader can
+spend less time for a mental reconstruction of the content and focus on the
+technical facts more easily.
 
 Some of the important tools that communicate order in technical documentation:
 
