@@ -24,6 +24,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
+  - [Break Down Work](#break-down-work)
   - [Look Outside Your Immediate Task, Maintain the Bigger Picture](#look-outside-your-immediate-task-maintain-the-bigger-picture)
   - [Avoid Work That Can Be Avoided](#avoid-work-that-can-be-avoided)
   - [Understand and Respect the Customer](#understand-and-respect-the-customer)
@@ -210,6 +211,20 @@ have an **archetype** of a future thing, real and complex system.
 See also Kent Beck's
 [Test-Driven Development book](https://en.wikipedia.org/wiki/Test-Driven_Development_by_Example)
 where this approach of doing simple things is explained at great depth.
+
+### Break Down Work
+
+Divide complex tasks into smaller subtasks. Keep breaking them down until each
+subtask is short and manageable. This helps with detailed planning and assigning
+work to the right people.
+
+Align task breakdown with the technical architecture and vice versa. Ideally,
+work packages, epics, or tasks correspond to functional components. This way,
+working on a task means focusing on a single component or closely related parts.
+Design the architecture so that work naturally fits its components.
+
+For splitting software components, see Separation / Partitioning. Also, check
+Point of View for more context.
 
 ### Look Outside Your Immediate Task, Maintain the Bigger Picture
 
