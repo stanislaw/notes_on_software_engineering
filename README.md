@@ -44,6 +44,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
   - [Close the loops, acknowledge communication](#close-the-loops-acknowledge-communication)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
+  - [Leverage Early Expert Review and Broad Feedback](#leverage-early-expert-review-and-broad-feedback)
   - [Talk in Person When You Can](#talk-in-person-when-you-can)
   - [Recognize the ideas and achievements of your colleagues](#recognize-the-ideas-and-achievements-of-your-colleagues)
   - [Praise Good Work](#praise-good-work)
@@ -574,6 +575,21 @@ them understand what you are doing and helps your work get noticed and
 appreciated.
 
 Stay connected. Stay aligned.
+
+### Leverage Early Expert Review and Broad Feedback
+
+Arrange work so that it passes through the eyes of multiple experts, for
+example, through code reviews, design reviews, or walkthroughs. Share proposals
+widely to gather diverse perspectives. This approach increases the likelihood of
+spotting issues early and improving the overall quality of the work.
+
+Especially during the conception phase, share ideas early before anything is set
+in stone. Late feedback can either require costly rework or discourage reviewers
+from commenting at all, reducing the benefit of expert input.
+
+See also [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law):
+"The best way to get the right answer on the internet is not to ask a question;
+it’s to post the wrong answer."
 
 ### Talk in Person When You Can
 
