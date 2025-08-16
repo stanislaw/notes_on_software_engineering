@@ -187,8 +187,8 @@ arbitrarily. Please don't expect it to be polished.
 
 ### Leave Work Better: Improving Today for a Simpler Tomorrow
 
-Always leave the work artifacts – whether code, documentation, diagrams, models,
-or others – in a better state than they were before, giving future you or
+Always leave the work artifacts - whether code, documentation, diagrams, models,
+or others - in a better state than they were before, giving future you or
 someone else the opportunity to improve them even further.
 
 ### Fast Feedback
@@ -200,7 +200,7 @@ test suites, effective debugging tools, and simply asking a colleague for quick
 advice. When starting on a new project, one of the first things to learn is how
 to run the existing tests, write new ones, and figure out the quickest way to
 debug. Investing in faster tools, clearer error messages, and smoother processes
-pays off – the shorter the feedback loop, the more confidently and efficiently
+pays off - the shorter the feedback loop, the more confidently and efficiently
 you can work.
 
 ### Start Simple
@@ -276,7 +276,7 @@ that distinguishes a senior engineer from a junior one.
 Engineering is sometimes cheating. Instead of implementing something
 sophisticated, a smarter workaround can achieve the same result with far less
 effort. For example, rather than building a solution from scratch, reuse
-existing work – whether by leveraging open-source software or buying an
+existing work - whether by leveraging open-source software or buying an
 off-the-shelf system.
 
 In software development, there's a well-known saying: "The best code is the code
@@ -352,15 +352,15 @@ task of formulating and spelling out each individual content item.
 ### Plant the Tasks, Let the Mind Work
 
 When you are overloaded with several non-trivial tasks, try starting all of them
-by just 10–20%, then switch between them. The goal is to build an initial
+by just 10-20%, then switch between them. The goal is to build an initial
 understanding for each task and give your mind time to work on them in the
 background (what people often call "sleeping on it").
 
 The subconscious is an interesting mechanism: when given a few active problems
 to process, it starts building structure around them even when you are not
-focused on them directly. Later, continuing from that 10–20% starting point
-often feels much easier. The process can be repeated from 10–20% to 30–40% to
-50–60% and so on.
+focused on them directly. Later, continuing from that 10-20% starting point
+often feels much easier. The process can be repeated from 10-20% to 30-40% to
+50-60% and so on.
 
 This approach also helps with communication: once you've started a task, you're
 already in a position to ask questions, clarify assumptions, or unblock others
@@ -370,12 +370,12 @@ who depend on your output.
 
 Strive for clarity in everything you do. Put in the effort to make the products
 of your work, or the aspects of the system you're working on, as clear as
-possible. Simplify complexity – either by reducing the complexity itself through
+possible. Simplify complexity - either by reducing the complexity itself through
 development or, if that's not feasible, by explaining the details as clearly as
 possible.
 
 Avoid owning too many non-obvious details about your work that only you
-understand. Do not hold onto esoteric knowledge – de-esoterize it. Document it
+understand. Do not hold onto esoteric knowledge - de-esoterize it. Document it
 for everyone to access.
 
 Encyclopedism or esotericism is an anti-pattern because it obscures common
@@ -412,7 +412,7 @@ knowledge go hand in hand.
 
 ### Learn from Lessons
 
-Do something, then learn from experience. Don't forget – take deliberate time to
+Do something, then learn from experience. Don't forget - take deliberate time to
 reflect. The industry has developed several best practices for capturing lessons
 learned:
 
@@ -426,19 +426,19 @@ learned:
   activity, such as a project or milestone, the team takes time to reflect on
   what went well or wrong, learn from it, and document the findings.
 
-Learning doesn't have to be only organizational – it can also be personal.
+Learning doesn't have to be only organizational - it can also be personal.
 
 Examples:
 
 - If a project was successful, what made it so? If a project failed, what were
   the key contributing factors? How can it be improved next time?
-- Learning how to estimate software work better – what if a task was estimated
+- Learning how to estimate software work better - what if a task was estimated
   to take X weeks but actually took 3X? Wouldn't it be valuable to improve
   estimation skills?
 - If one colleague is significantly more effective than another, what makes them
   so? What tools, techniques, or habits contribute to their efficiency? Can
   something be learned from them?
-- Observing bugs missed during code reviews – what types of bugs tend to escape
+- Observing bugs missed during code reviews - what types of bugs tend to escape
   static analysis or peer review? What patterns can be identified to prevent
   them in the future?
 
@@ -526,7 +526,7 @@ Examples of loops:
 
 A task manager is an excellent tool for tracking work items that need to be
 completed and closed. For tracking non-trivial project development topics and
-trade-offs, a useful practice is to maintain an "Open Questions Log" – a table
+trade-offs, a useful practice is to maintain an "Open Questions Log" - a table
 where each unresolved or unclosed item is tracked by its current status until it
 is resolved.
 
@@ -559,8 +559,8 @@ well-connected, these updates may happen through casual conversations or small
 talk over lunch. This kind of informal communication spreads useful information
 without needing formal meetings.
 
-One big advantage: by the time your work reaches a review—like a code review,
-documentation review, or a project milestone—people will already know about it
+One big advantage: by the time your work reaches a review-like a code review,
+documentation review, or a project milestone-people will already know about it
 and may have given input earlier. This makes reviews faster, smoother, and less
 stressful.
 
@@ -590,7 +590,7 @@ from commenting at all, reducing the benefit of expert input.
 
 See also [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law):
 "The best way to get the right answer on the internet is not to ask a question;
-it’s to post the wrong answer."
+it's to post the wrong answer."
 
 ### Talk in Person When You Can
 
@@ -857,12 +857,12 @@ understanding is Functional Analysis, which enables Functional Decomposition,
 also called Functional Partitioning.
 
 Functional analysis focuses on what the system must do, rather than how it is
-implemented. At this stage, logical—not physical—aspects of the system are
+implemented. At this stage, logical-not physical-aspects of the system are
 analyzed. The primary goal is to identify system functions and their
 relationships.
 
 An early outcome of this analysis is a preliminary functional block diagram,
-which splits the system into logical parts. Once the system’s contours are
+which splits the system into logical parts. Once the system's contours are
 defined, the next step is to determine meaningful interfaces between these
 blocks. Well-defined interfaces ensure modularity and clear interactions when
 the system is implemented physically.
@@ -874,7 +874,7 @@ functional decomposition. This process is repeated iteratively until the
 following conditions are met:
 
 - All functions are captured, leaving no gaps in functional coverage.
-- All functions are partitioned in the most efficient way, given the team’s
+- All functions are partitioned in the most efficient way, given the team's
   knowledge and experience.
 - All functions are ready to be transformed into a work breakdown structure
   (WBS) that makes sense from both programmatic and technical perspectives.
@@ -945,13 +945,13 @@ A good example from https://www.sigbus.info/worse-is-better:
 Software engineering often involves creating abstractions. A solution to a
 problem can include more or fewer abstractions, but each introduced abstraction
 comes with a cost. This cost manifests as the cognitive burden placed on those
-who need to understand, maintain, and document it – not just in code, but also
+who need to understand, maintain, and document it - not just in code, but also
 in models, documentation, and even organizational structures.
 
 Cognitively, an abstraction can be thought of as a mental gadget that one must
 "install" in order to work with it. Imagine an empty room that needs to be
 furnished according to a specific use case. If the chosen abstractions fit well
-within the team's mental model, the space remains functional – like a
+within the team's mental model, the space remains functional - like a
 well-furnished room where people can move freely and use it as intended.
 However, if abstractions are difficult to grasp or combine in contradictory
 ways, the mental space becomes cluttered, leaving little room to maneuver. This
@@ -968,8 +968,8 @@ costs:
 - Long-term maintenance will require keeping the code, file structure, and
   models aligned with X, often introducing additional overhead.
 
-Introducing too many incompatible abstractions – or a few abstractions that
-consume too much of the decision space – can quickly lead to over-engineering.
+Introducing too many incompatible abstractions - or a few abstractions that
+consume too much of the decision space - can quickly lead to over-engineering.
 Those responsible for maintaining such systems often find themselves
 disentangling unnecessary complexity, seeking a new balance that restores
 manageability by replacing or introducing more adequate abstractions.
@@ -987,7 +987,7 @@ Habitable software is better than perfect software.
 > characteristics are different...
 
 > ...Habitability makes a place livable, like home. And this is what we want in
-> software – that developers feel at home, can place their hands on any item
+> software - that developers feel at home, can place their hands on any item
 > without having to think deeply about where it is. It's something like clarity,
 > but clarity is too hard to come by.
 
@@ -1044,7 +1044,7 @@ thansform it into a something new. Metaphors similar to Prima Materia are
 
 Mature automation allows itself to be observed, inspected, and overridden. Even
 if something is automated and usually works well, there should always be a way
-to turn it off or adjust it when needed. Good automation is transparent – you
+to turn it off or adjust it when needed. Good automation is transparent - you
 can see what it is doing, understand how it works, troubleshoot problems, and
 make changes if necessary. In some situations, it is important to bypass
 automation entirely and take manual control or use an alternative path. Systems
@@ -1359,7 +1359,7 @@ assured.
 Recognizing these limitations is essential. An architect, safety analyst, or
 engineer who understands the inherent constraints of models is better equipped
 to request or create additional representations when needed. Without the right
-models—or in the presence of misleading ones—analysis, design, and
+models-or in the presence of misleading ones-analysis, design, and
 decision-making can suffer.
 
 ### Pseudocode as a Modeling Tool
@@ -1385,7 +1385,7 @@ Sometimes, you don't have to be nice to code.
 - Some parts may be unnecessary for your needs.
 - It may contain mistakes.
 
-In such cases, it is perfectly fine to delete, modify, or hack the code – to
+In such cases, it is perfectly fine to delete, modify, or hack the code - to
 make it compile, test it, or simply understand how it works.
 
 ### Two Strategies for Replacing a Feature
@@ -1572,12 +1572,12 @@ observable, or symptomatic parts of a system, rather than systematically
 considering all potential contributing factors. This can lead to overlooking the
 true root cause, especially if it's hidden in a less familiar or less accessible
 area. Before jumping on a specific part of the problem or solution, first step
-back and consider the bigger picture — which blocks in general might be
+back and consider the bigger picture - which blocks in general might be
 involved. As per the common saying: "Don't look only where there is light". In
 practice, this means listing all possible contributors to a problem in the form
 of a block diagram or any other simple sketch that collects both the symptoms
 and relevant system parts. It can also help to annotate each block with relevant
-properties — for example, in a performance investigation, adding performance
+properties - for example, in a performance investigation, adding performance
 characteristics per block can highlight which parts are likely causes, not just
 the ones that appear most problematic.
 
@@ -1690,8 +1690,8 @@ code is code without tests."
 
 In addition to ensuring quality, testing is essential for simulations that help
 manage complexity. If I can test and simulate every aspect of my program, I can
-effectively manage its complexity. However, if there are blind spots – areas
-that are difficult or impossible to test – I lose control over those areas and
+effectively manage its complexity. However, if there are blind spots - areas
+that are difficult or impossible to test - I lose control over those areas and
 must rely on real users to test in the wild.
 
 ### Test It to Engineer It
@@ -1715,7 +1715,7 @@ under test (SUT).
 ### Provide Basic Test Sequences with Your Product
 
 If you are a provider of software or hardware, consider going beyond the
-standard "interface control document" (ICD) by including basic test sequences –
+standard "interface control document" (ICD) by including basic test sequences -
 a "Hello World"-type program that allows users to quickly get started with your
 product. Such examples help users bring the system online and get up to speed
 without unnecessary guesswork.
@@ -1764,8 +1764,8 @@ good documentation is easy when in fact it is not.
 
 No matter the industry, team size, or type of project, every software team
 should maintain a document that describes the design and architecture of the
-developed system. This document may vary in size — from a few pages to a large,
-detailed file — but its purpose is the same: to give any reader a high-level
+developed system. This document may vary in size - from a few pages to a large,
+detailed file - but its purpose is the same: to give any reader a high-level
 understanding of how the software is structured and how its key parts work
 together.
 
@@ -1836,7 +1836,7 @@ practice is doing a quick sound and video check to ensure everything is working
 smoothly. A good rule of thumb is to join:
 
 - 5 minutes early for routine meetings.
-- 15–30+ minutes early for important meetings, to handle any technical issues in
+- 15-30+ minutes early for important meetings, to handle any technical issues in
   advance.
 
 ### Meeting Agenda
@@ -1870,7 +1870,7 @@ minimum, meetings should result in:
 
 Whenever possible, capturing processes or architectures in a diagram is better
 than a simple bullet point. Even if no formal notes are recorded, every
-participant leaves with takeaways and mental models – but written records
+participant leaves with takeaways and mental models - but written records
 significantly increase the meeting's effectiveness.
 
 Anti-pattern: Running meetings without documenting useful outcomes, leading to
@@ -1900,7 +1900,7 @@ Common pitfalls:
 
 ### Sharing Screen & Presenting Material
 
-- Share only the relevant content – close unrelated applications, especially
+- Share only the relevant content - close unrelated applications, especially
   internal company chats, before presenting to an external audience.
 - If you need to access other files or perform actions outside the presentation,
   unshare your screen first, complete the task, then reshare only the necessary
@@ -2045,7 +2045,7 @@ cease to exist because there are younger and more adequate competitors or it can
 find a way to renew itself and make it into a new year.
 
 Another interesting observation is that a transition from season to season
-almost never goes smoothly – in order to accomodate for change, the company has
+almost never goes smoothly - in order to accomodate for change, the company has
 to adapt and this very often happens with a good deal of destruction and
 restructuring (see Prima Materia heuristic). Dropping what does not work and
 keeping or creating what does might be crucial for such a transition. Not all of

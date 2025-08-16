@@ -44,6 +44,36 @@ def run_invoke(
     )
 
 
+REPLACEMENTS = {
+    '‘': "'", '’': "'",  # single quotes
+    '“': '"', '”': '"',  # double quotes
+    '–': '-', '—': '-',  # dashes
+    '…': '...',  # ellipsis
+    '•': '*',  # bullet
+    '′': "'", '″': '"',  # prime marks
+    '‹': '<', '›': '>',  # single angle quotes
+    '«': '<<', '»': '>>',  # double angle quotes
+}
+
+pattern = re.compile(
+    "|".join(map(re.escape, REPLACEMENTS.keys())))
+
+
+def replace(match):
+    char = match.group(0)
+    return REPLACEMENTS.get(char, '###')  # replace or remove non-ASCII
+
+
+def normalize_file(input_path, output_path):
+    with open(input_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    normalized_content = pattern.sub(replace, content)
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(normalized_content)
+
+
 @task(default=True)
 def list_tasks(context):
     clean_command = """
@@ -60,6 +90,7 @@ def toc(context):
 @task
 def format(context):
     run_invoke(context, "prettier --write --print-width 80 --prose-wrap always README.md")
+    normalize_file("README.md", "README.md")
 
 
 @task(aliases=["l"])
