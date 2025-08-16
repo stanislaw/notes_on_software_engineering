@@ -66,6 +66,7 @@ arbitrarily. Please don't expect it to be polished.
   - [0-1-2-Many II](#0-1-2-many-ii)
   - [Masking (Shadowing)](#masking-shadowing)
 - [Design](#design)
+  - [Functional analysis and decomposition](#functional-analysis-and-decomposition)
   - [Poor Abstraction](#poor-abstraction)
   - [Cost of Abstraction](#cost-of-abstraction)
   - [Habitability](#habitability)
@@ -846,6 +847,79 @@ Examples:
 See also Overlapping Control.
 
 ## Design
+
+### Functional analysis and decomposition
+
+Before implementing a system in software or hardware, it is essential to
+understand what needs to be done, assign tasks and interfaces between teams,
+plan the work, and allocate resources. A common approach to achieve this
+understanding is Functional Analysis, which enables Functional Decomposition,
+also called Functional Partitioning.
+
+Functional analysis focuses on what the system must do, rather than how it is
+implemented. At this stage, logical—not physical—aspects of the system are
+analyzed. The primary goal is to identify system functions and their
+relationships.
+
+An early outcome of this analysis is a preliminary functional block diagram,
+which splits the system into logical parts. Once the system’s contours are
+defined, the next step is to determine meaningful interfaces between these
+blocks. Well-defined interfaces ensure modularity and clear interactions when
+the system is implemented physically.
+
+The challenge is to partition functions efficiently, avoiding over-engineering
+while maintaining flexibility and clarity. If the initial splitting of functions
+is inefficient, the functions are regrouped, producing a new version of the
+functional decomposition. This process is repeated iteratively until the
+following conditions are met:
+
+- All functions are captured, leaving no gaps in functional coverage.
+- All functions are partitioned in the most efficient way, given the team’s
+  knowledge and experience.
+- All functions are ready to be transformed into a work breakdown structure
+  (WBS) that makes sense from both programmatic and technical perspectives.
+
+When functions are well-separated, mapping them into future work packages
+becomes straightforward. For example, Function 1 can become Work Package 1,
+Function 2 becomes Work Package 2, and so on. Aligning tasks with functions
+allows teams to focus on their work independently while interacting through
+clearly defined interfaces. This alignment improves efficiency and minimizes
+blocking between teams.
+
+Effective functional partitioning leads to a robust WBS and clear separation of
+responsibilities. Conversely, poor or incomplete functional analysis can result
+in inefficiencies, unclear responsibilities, and slow progress.
+
+Besides supporting the derivation of the WBS, functional decomposition also
+enables other activities that contribute to robust technical work partitioning.
+For example, safety, reliability, performance and other analyses can be carried
+out early in the project, even before actual technical development begins. A
+well-structured functional decomposition can support these analyses efficiently
+and provide feedback that may suggest more optimal functional splits, resulting
+in a safer, higher-performing, and more efficient system. Early integration of
+safety analysis into functional design helps prevent risks and potential
+accidents, avoiding issues that could arise if safety considerations were
+delayed.
+
+Functional decomposition is recursive. After identifying top-level functional
+blocks (e.g., F1, F2), each block can be further decomposed into sub-functions
+(e.g., F1.1, F1.2). Complex projects may produce a deep functional tree, with
+higher levels managed by the core team and lower levels delegated to suppliers
+or subcontractors.
+
+An excellent quote from Systems Engineering Fundamentals captures the essence of
+functional decomposition and partitioning:
+
+> **Functional Partitioning** Functional partitioning is the process of grouping
+> functions that logically fit with the components likely to be used, and to
+> minimize functional interfaces. Partitioning is performed as part of
+> functional decomposition. It identifies logical groupings of functions that
+> facilitate the use of modular components and open-system designs. Functional
+> partitioning is also useful in understanding how existing equipment or
+> components (including commercial) will function with or within the system
+
+See [SYSTEMS ENGINEERING FUNDAMENTALS](https://ocw.mit.
+edu/courses/16-885j-aircraft-systems-engineering-fall-2005/6128a102c1a9b6dbd30f2fb18c12aa64_sefguide_01_01.pdf).
 
 ### Poor Abstraction
 
