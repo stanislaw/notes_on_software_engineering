@@ -94,7 +94,9 @@ arbitrarily. Please don't expect it to be polished.
   - [Grouping](#grouping)
   - [Observability vs Correctness](#observability-vs-correctness)
   - [Don't Use RAII on a Business Logic Level](#dont-use-raii-on-a-business-logic-level)
+  - [Rich Collection of Models and Diagrams](#rich-collection-of-models-and-diagrams)
   - [The Limits and Choices of Models and Diagrams](#the-limits-and-choices-of-models-and-diagrams)
+  - [Pseudocode as a Modeling Tool](#pseudocode-as-a-modeling-tool)
 - [Coding, code reviews, and maintenance programming](#coding-code-reviews-and-maintenance-programming)
   - [Code that Works](#code-that-works)
   - [Code Is Not Your Partner](#code-is-not-your-partner)
@@ -1219,6 +1221,26 @@ Instead of using RAII, manage business logic explicitly through well-defined
 methods or services. This approach keeps the logic transparent, easier to
 understand, and more adaptable to changing requirements.
 
+### Rich Collection of Models and Diagrams
+
+Since each model or diagram represents only a fragment of reality, no single
+view is sufficient for engineering work. To address different tasks effectively,
+an engineer needs access to a diverse set of models and diagrams. Each
+representation emphasizes some aspects while concealing others, so a rich
+collection ensures that the essential dimensions of reality can be examined from
+multiple perspectives.
+
+An engineer with a diverse set of modeling tools can communicate design ideas
+and reasoning far more effectively than someone who relies on no visuals or only
+a single type of diagram. Multiple representations improve clarity and ensure
+that all relevant aspects of the system are adequately considered.
+
+The Unified Modeling Language (UML) offers a good illustration. Its suite of
+diagrams is designed to capture both structural and behavioral aspects of a
+system. Class and component diagrams clarify static structures and their
+relationships, while sequence, activity, or state diagrams describe dynamic
+behavior over time.
+
 ### The Limits and Choices of Models and Diagrams
 
 Models and diagrams represent selected aspects of reality. By definition, each
@@ -1249,6 +1271,13 @@ engineer who understands the inherent constraints of models is better equipped
 to request or create additional representations when needed. Without the right
 models—or in the presence of misleading ones—analysis, design, and
 decision-making can suffer.
+
+### Pseudocode as a Modeling Tool
+
+Sometimes a fragment of pseudocode can capture the essential aspects of a
+process more effectively than an activity diagram. Where diagrams may become
+cluttered with blocks and arrows, pseudocode can provide a direct and precise
+description of the logic, making it easier to understand and communicate.
 
 ## Coding, code reviews, and maintenance programming
 
