@@ -94,6 +94,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Grouping](#grouping)
   - [Observability vs Correctness](#observability-vs-correctness)
   - [Don't Use RAII on a Business Logic Level](#dont-use-raii-on-a-business-logic-level)
+  - [The Limits and Choices of Models and Diagrams](#the-limits-and-choices-of-models-and-diagrams)
 - [Coding, code reviews, and maintenance programming](#coding-code-reviews-and-maintenance-programming)
   - [Code that Works](#code-that-works)
   - [Code Is Not Your Partner](#code-is-not-your-partner)
@@ -1217,6 +1218,37 @@ However, applying RAII to business logic can lead to significant problems:
 Instead of using RAII, manage business logic explicitly through well-defined
 methods or services. This approach keeps the logic transparent, easier to
 understand, and more adaptable to changing requirements.
+
+### The Limits and Choices of Models and Diagrams
+
+Models and diagrams represent selected aspects of reality. By definition, each
+one captures only part of what it describes. The choice of a particular model or
+diagram shapes which information is highlighted and which is hidden or
+downplayed.
+
+This has practical consequences. If the task at hand does not align with the
+purpose of the chosen model, the model may become distracting rather than
+useful. A representation that clarifies one dimension of a system may obscure
+other aspects that are crucial for solving the problem.
+
+For example, a static diagram showing functional blocks and their interfaces can
+clarify structural relationships, but it gives little insight into how those
+functions interact over time. Conversely, a time-based activity diagram
+illustrates temporal interactions well, yet it can obscure the functional
+grouping of elements.
+
+Reliability and safety analysis provide another illustration. A static
+structural diagram can show how many elements exist and how they are grouped
+within a system or repository. Such a view offers an inventory of what can, in
+principle, be analyzed. However, it says little about control dependencies, how
+failures propagate, how redundancies work, or how safety properties can be
+assured.
+
+Recognizing these limitations is essential. An architect, safety analyst, or
+engineer who understands the inherent constraints of models is better equipped
+to request or create additional representations when needed. Without the right
+models—or in the presence of misleading ones—analysis, design, and
+decision-making can suffer.
 
 ## Coding, code reviews, and maintenance programming
 
