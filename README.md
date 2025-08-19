@@ -60,6 +60,7 @@ arbitrarily. Please don't expect it to be polished.
   - [Point of View](#point-of-view)
   - [Periphery](#periphery)
   - [Rational and Unconscious](#rational-and-unconscious)
+  - [Engineering as Input/Output: The Role of Prepared Inputs](#engineering-as-inputoutput-the-role-of-prepared-inputs)
   - [Humans are not designed for Big Numbers](#humans-are-not-designed-for-big-numbers)
   - [There is no such thing as Many](#there-is-no-such-thing-as-many)
   - [0-1-2-Many I](#0-1-2-many-i)
@@ -784,6 +785,23 @@ Engineers create rational artifacts that may appear simple and mundane. However,
 the process behind their creation often involves deep reflection and can stem
 from the unconscious mind.
 
+### Engineering as Input/Output: The Role of Prepared Inputs
+
+An engineer can be thought of as an I/O device that transforms inputs into
+outputs. The output, a solution or an implementation path, is often clear when
+the inputs are well-prepared and mature.
+
+When someone struggles to solve a problem, it is worth examining the quality of
+the inputs. Some may be missing, incomplete, inconsistent, or incorrect. Once
+enough information is collected and clarified, the solution often emerges
+naturally.
+
+Inputs can take many forms: a precise task definition, a clear system
+description, a solid understanding of the environment, personal experience and
+skills, well-formed mental models, effective diagrams, synergies with existing
+components, or advice from a fellow engineer. The healthier and more complete
+the inputs, the more straightforward the path to a solution becomes.
+
 ### Humans are not designed for Big Numbers
 
 If you have to work with something that involves a big number of entities, like
@@ -918,8 +936,8 @@ functional decomposition and partitioning:
 > partitioning is also useful in understanding how existing equipment or
 > components (including commercial) will function with or within the system
 
-See [SYSTEMS ENGINEERING FUNDAMENTALS](https://ocw.mit.
-edu/courses/16-885j-aircraft-systems-engineering-fall-2005/6128a102c1a9b6dbd30f2fb18c12aa64_sefguide_01_01.pdf).
+See
+[SYSTEMS ENGINEERING FUNDAMENTALS](https://ocw.mit.edu/courses/16-885j-aircraft-systems-engineering-fall-2005/6128a102c1a9b6dbd30f2fb18c12aa64_sefguide_01_01.pdf).
 
 ### Poor Abstraction
 
