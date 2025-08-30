@@ -1,20 +1,12 @@
-# Notes on Software Systems Engineering
+# Notes on Software Work
 
-These notes have been collected over time during my work as a software engineer.
+This repository contains a collection of notes and lessons learned that I have gathered over time during my work as a software engineer.
 
-Most of these notes are my own, though occasionally I quote from great books and
-other resources. Notes with quotations always include references to their
-sources.
+These notes are not strict instructions to be followed; rather, they serve as soft guidelines and recommendations. They are most valuable when considered as a whole. Taken individually, some notes may even appear to contradict one another. Following them too rigidly can diminish their usefulness or, in some cases, lead to negative outcomes. There may also be some overlap between notes, so it’s important not to interpret them too literally.
 
-These notes should not be seen as strict instructions that must be followed, but
-rather as soft guidelines or recommendations. They are most effective when
-considered altogether. Taken in isolation, some may even contradict one another.
-Trying to follow these notes too rigidly can diminish their value or even lead
-to negative outcomes. There may also be some overlap between the notes, so it's
-important not to take them too literally.
+Most of the notes are my own observations, though I occasionally quote from influential books and other resources. All notes with quotations include references to their sources.
 
-This is currently just a draft which is far from complete and organized
-arbitrarily. Please don't expect it to be polished.
+This repository is currently a draft, far from complete, and organized arbitrarily. Please do not expect it to be polished.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
