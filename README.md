@@ -81,12 +81,12 @@ arbitrarily. Please do not expect it to be polished.
   - ["Magic" is automation that is not adequate](#magic-is-automation-that-is-not-adequate)
   - [Poisonous Systems](#poisonous-systems)
   - [Bad Design in House](#bad-design-in-house)
-  - [Trade-off of Encapsulation](#trade-off-of-encapsulation)
   - [Unnecessary Flexibility](#unnecessary-flexibility)
   - [Black Box with a Green Play Button](#black-box-with-a-green-play-button)
   - [Single Source Concept and Its Exceptions](#single-source-concept-and-its-exceptions)
   - [Resilience to Change vs Fixed Perfect Solutions](#resilience-to-change-vs-fixed-perfect-solutions)
   - [Two Almost Identical Entities](#two-almost-identical-entities)
+  - [Design for Operations](#design-for-operations)
   - [Control](#control)
     - [Observable Control](#observable-control)
     - [Humans should dominate machines](#humans-should-dominate-machines)
@@ -95,6 +95,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Feedback](#feedback)
     - [Broken feedback loops](#broken-feedback-loops)
   - [Separation / partitioning](#separation--partitioning)
+  - [Trade-off of Encapsulation](#trade-off-of-encapsulation)
   - [Grouping](#grouping)
   - [Observability vs Correctness](#observability-vs-correctness)
   - [Don't Use RAII on a Business Logic Level](#dont-use-raii-on-a-business-logic-level)
@@ -1088,14 +1089,6 @@ Do not overdesign your own software if you have a big producer of bad or too
 opinionated designs nearby. A big producer can be a vendor or a team with
 authority who decided to rely on a given design a while ago.
 
-### Trade-off of Encapsulation
-
-Strong, "tight", encapsulation is good but don't forget about the users:
-Operations people. Good example is debugging facilities - if you close
-everything then you leave the ops people, who might be you, without any tools to
-understand or tweak your system. Richard Cook explains this very well: See
-[Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14).
-
 ### Unnecessary Flexibility
 
 (from [Writing Solid Code](http://writingsolidcode.com/))
@@ -1176,6 +1169,20 @@ parallel hierarchies.
 
 To these days I still didn't see or create an elegant solution to this problem.
 See also "Hard Feature".
+
+### Design for Operations
+
+When designing a system, consider how it will be operated in production. A
+system may be operated entirely by humans, partially automated with human
+oversight, or fully automated. In all cases, the system must be accessible to
+its operators in terms of understanding, control, observability,
+maintainability, and other operational aspects.
+
+The challenge in design is that developers often have a limited view of the
+system, especially of the final and actual environment in which it will operate.
+It may require special training and a continuous, conscious 'systems thinking'
+effort to put oneself in the operators' shoes and properly identify the
+properties the system must have to be easily operable and maintainable.
 
 ### Control
 
@@ -1283,6 +1290,14 @@ EnumerateInstructions(*function, [&](Instruction &instr, int bbIndex, int iIndex
   ... lots of lines working on `instr` ...
 });
 ```
+
+### Trade-off of Encapsulation
+
+Strong, "tight", encapsulation is good but don't forget about the users:
+Operations people. Good example is debugging facilities - if you close
+everything then you leave the ops people, who might be you, without any tools to
+understand or tweak your system. Richard Cook explains this very well: See
+[Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14).
 
 ### Grouping
 
