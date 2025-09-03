@@ -1,12 +1,21 @@
-# Notes on Software Work
+# Handbook for Software Work
 
-This repository contains a collection of notes and lessons learned that I have gathered over time during my work as a software engineer.
+This repository contains a collection of notes and lessons learned that I have
+gathered over time during my work as a software engineer.
 
-These notes are not strict instructions to be followed; rather, they serve as soft guidelines and recommendations. They are most valuable when considered as a whole. Taken individually, some notes may even appear to contradict one another. Following them too rigidly can diminish their usefulness or, in some cases, lead to negative outcomes. There may also be some overlap between notes, so it’s important not to interpret them too literally.
+These notes are not strict instructions to be followed; rather, they serve as
+soft guidelines and recommendations. They are most valuable when considered as a
+whole. Taken individually, some notes may even appear to contradict one another.
+Following them too rigidly can diminish their usefulness or, in some cases, lead
+to negative outcomes. There may also be some overlap between notes, so it's
+important not to interpret them too literally.
 
-Most of the notes are my own observations, though I occasionally quote from influential books and other resources. All notes with quotations include references to their sources.
+Most of the notes are my own observations, though I occasionally quote from
+influential books and other resources. All notes with quotations include
+references to their sources.
 
-This repository is currently a draft, far from complete, and organized arbitrarily. Please do not expect it to be polished.
+This repository is currently a draft, far from complete, and organized
+arbitrarily. Please do not expect it to be polished.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
