@@ -1,4 +1,4 @@
-# Handbook for Software Work
+# Notes on Software Engineering
 
 This repository contains a collection of notes and lessons learned that I have
 gathered over time during my work as a software engineer.
