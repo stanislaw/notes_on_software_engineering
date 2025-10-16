@@ -170,6 +170,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Standards and best practices](#standards-and-best-practices)
   - [Standards favor good practice](#standards-favor-good-practice)
   - [Wrong is worse than early or incomplete](#wrong-is-worse-than-early-or-incomplete)
+  - [Standards vs Hardcoded Implementations](#standards-vs-hardcoded-implementations)
 - [Requirements](#requirements)
   - [One-stop shopping](#one-stop-shopping)
 - [Safety](#safety)
@@ -2147,6 +2148,23 @@ practice would be rejected or deemed inappropriate by any standard.
 
 Sometimes it is worse to be wrong than to be early or lack information. The
 context: passing the project review milestones required by standards.
+
+### Standards vs Hardcoded Implementations
+
+Standards try to generalize a particular best practice or design approach, but
+sometimes this generalization results in a very prescriptive, hardcoded
+implementation. When this happens, a standard becomes almost the opposite of
+what one would expect from a broad standard - it turns into a tool that enforces
+rigid, hardcoded solutions.
+
+Sometimes it can be useful to break away from a given standard to avoid being
+confined by its prescribed boundaries. It can take courage to stand up to a
+standard and do things one's own way.
+
+Standards may have good intentions but lack the necessary tooling to implement
+them properly. In such cases, a tool that does not implement a particular
+standard but simply solves a practical problem can be more powerful than the
+entire standard itself.
 
 ## Requirements
 
