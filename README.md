@@ -54,6 +54,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Share What Works](#share-what-works)
   - [Share and Improve Team Workflows](#share-and-improve-team-workflows)
   - [Keep Team Knowledge Alive](#keep-team-knowledge-alive)
+  - [Create a Superset of Conflicting Interests or Clarify the Problem](#create-a-superset-of-conflicting-interests-or-clarify-the-problem)
 - [Complexity and Cognitive Load](#complexity-and-cognitive-load)
   - [Solving Right Problems](#solving-right-problems)
   - [Solutions are Context-Driven](#solutions-are-context-driven)
@@ -688,6 +689,27 @@ habits.
 To keep them alive, teams need to refresh what matters. Say the important things
 often. Practice them together. Repeating is not just a reminder, it is how a
 team holds on to what makes it strong.
+
+### Create a Superset of Conflicting Interests or Clarify the Problem
+
+In technical teamwork, it is often the case that if a way forward is clear,
+everyone agrees quickly and progress follows naturally. When there is no
+agreement, however, discussions can become heated and even personal for those
+involved.
+
+In such situations, it is often worth taking a step back to reflect on the
+underlying forces at play when a quick solution cannot be found. Pausing helps
+reduce friction and personal antipathy, signals that a real problem exists, and
+allows the team to clarify all viewpoints and construct a superset of the
+conflicting interests.
+
+If this superset is clear and a solution can be found within it, the team can
+move forward together. If the superset reveals truly conflicting goals, then
+those goals must be refined, agreed upon, or sacrificed.
+
+In any case, once the conflict is clearly defined, there should be fewer hard
+feelings, even if the final solution does not reflect every participant's
+perspective.
 
 ## Complexity and Cognitive Load
 
