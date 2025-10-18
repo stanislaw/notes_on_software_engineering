@@ -155,6 +155,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Meeting Notes](#meeting-notes)
   - [Capturing Meeting Results](#capturing-meeting-results)
   - [Briefing In](#briefing-in)
+  - [Briefing out](#briefing-out)
   - [Sharing Screen & Presenting Material](#sharing-screen--presenting-material)
 - [Systems](#systems)
   - [Good enough is often best](#good-enough-is-often-best)
@@ -1955,6 +1956,19 @@ Common pitfalls:
   main agenda. This is especially problematic when an individual undermines the
   shared position of the team by introducing misalignment.
 
+### Briefing out
+
+When a meeting involves an external party, it is sometimes useful to meet again
+with a smaller group in a so-called debrief meeting to discuss the results and
+action points. During such a meeting, the collected information, impressions,
+the team's performance during the meeting, and the further strategy can be
+discussed to prepare for the next round of exchanges with the external party,
+such as a customer, a supplier, or a project partner.
+
+Debriefs can also be useful for onboarding new people into the project work, as
+well as for keeping the existing team aligned on the ongoing engineering
+activities and the latest project status.
+
 ### Sharing Screen & Presenting Material
 
 - Share only the relevant content - close unrelated applications, especially
@@ -2187,6 +2201,16 @@ Standards may have good intentions but lack the necessary tooling to implement
 them properly. In such cases, a tool that does not implement a particular
 standard but simply solves a practical problem can be more powerful than the
 entire standard itself.
+
+Another interesting case arises when standards compete to be adopted by a
+company. If one of the competing standards is simpler, defines a more
+straightforward schema and concepts, and is well supported by existing tools, it
+may prevail over the other, more sophisticated standard that would require
+implementing all its concepts in-house. Sometimes a company may adopt a standard
+unintentionally, simply because there is an existing tool that works. In such
+cases, the standard operates in the background, and the team can keep using the
+tool without even realizing that there is a formal standard or set of
+conventions is behind it.
 
 ## Requirements
 
