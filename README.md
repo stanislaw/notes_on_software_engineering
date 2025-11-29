@@ -20,7 +20,6 @@ arbitrarily. Please do not expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Day-to-Day Work](#day-to-day-work)
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
@@ -68,6 +67,7 @@ arbitrarily. Please do not expect it to be polished.
   - [0-1-2-Many I](#0-1-2-many-i)
   - [0-1-2-Many II](#0-1-2-many-ii)
   - [Masking (Shadowing)](#masking-shadowing)
+  - [Weighting system](#weighting-system)
 - [Design](#design)
   - [Functional analysis and decomposition](#functional-analysis-and-decomposition)
   - [Poor Abstraction](#poor-abstraction)
@@ -889,6 +889,50 @@ Examples:
 - bugs often hide themselves behind complexity
 
 See also Overlapping Control.
+
+### Weighting system
+
+I often visualize software-related decision making and trade-offs, both in my
+systems engineering work and in discussions with fellow engineers, as a system
+of weights placed on a scale. When a decision is hard to make because there are
+conflicting arguments or interests, it is like a perfectly balanced scale where
+all weights cancel each other out. Each weight represents a particular quality
+that we care about. For example, we may value the observability of a system, and
+this value will drive many of our decisions, outweighing other aspects that may
+be in conflict with it, for example, performance or the desire to avoid
+cluttering the code with unnecessary tracing calls.
+
+Sometimes the weights can be distributed too evenly, outweighing each other
+without any particular weight (decision) gaining dominance. This leads to the
+risk of unresolved trade-offs that drag on for too long. At other times
+discussions get heated because the weights of the participants are not fully
+synchronized. Reaching agreement in such situations is almost like synchronizing
+a combined weighting system that includes the weights of every participant in
+the engineering group. Once the weights are recognized, made explicit, and
+agreed on, some weights become heavier (that is, more important) and some lose
+their weight. When all participants share the same summed-up weighting system,
+the scale finally tilts, and that is when the decision is made.
+
+The unfortunate part is that the entire decision-making process is limited by
+the knowledge of the participants. Depending on the available information, the
+scale may fall toward a decision that later turns out to be right or wrong. So
+the game of weights, even when played carefully and with good intentions, does
+not guarantee that the resulting decision will lead to the best or most
+practical outcome.
+
+It is not easy to quantify the strength of certain qualities because they are
+context dependent and can also vary based on the individual experience of the
+people involved.
+
+The weighting system of a highly experienced professional can be much more
+multidimensional and nuanced compared to that of someone who has just started
+their software engineering career.
+
+One important function of onboarding and early code and design reviews, when a
+new colleague joins an existing team, is the synchronization of the weighting
+systems that the person and the team have. Sometimes the team's weighting system
+is stronger and more rational than that of the newcomer, and sometimes it is the
+other way around.
 
 ## Design
 
