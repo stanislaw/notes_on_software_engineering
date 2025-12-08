@@ -57,6 +57,7 @@ arbitrarily. Please do not expect it to be polished.
 - [Complexity and Cognitive Load](#complexity-and-cognitive-load)
   - [Solving Right Problems](#solving-right-problems)
   - [Solutions are Context-Driven](#solutions-are-context-driven)
+  - [Evolution from Local Optimum to Better Optimum](#evolution-from-local-optimum-to-better-optimum)
   - [Weakest link](#weakest-link)
   - [Point of View](#point-of-view)
   - [Periphery](#periphery)
@@ -744,6 +745,31 @@ Examples:
   necessary performance optimizations.
 - Highly efficient code might be rewritten to sacrifice performance in favor of
   better maintainability and readability, especially for a larger team.
+
+### Evolution from Local Optimum to Better Optimum
+
+Moving from a local optimum to a better solution is often not obvious. When we
+are stuck with a solution that is not the best, it can be hard to see better
+options. Sometimes a better solution is ignored because it has a cost that seems
+too high or because it lacks some aspects of our familiar "good old" solution,
+which we are reluctant to give up. But real improvements always have a cost, and
+what seems expensive at first can be worth it - it can even change the game.
+Sometimes a superior solution comes from areas or techniques that do not seem
+"clean" or "organized", yet the final result ends up much better than the
+previous one.
+
+A solution that works "well enough" can stop a team from exploring new ideas.
+New options are often ignored or not even considered simply because the existing
+solution is already in place. At the same time, the current solution can carry
+hidden problems that slowly create frustration. Eventually, a new solution may
+appear, replacing the old one. It brings its own advantages and disadvantages,
+but it works at a higher, more advanced level.
+
+This is where team diversity plays an important role. Fresh perspectives come
+from having a variety of viewpoints. If the team is strongly attached to a
+locally optimal solution X, but a colleague has experience with an alternative
+solution Y, they can help the team step back and consider alternatives in a less
+biased way.
 
 ### Weakest link
 
