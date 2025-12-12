@@ -1805,10 +1805,9 @@ to write bad tests than to write none at all.
 
 ### TDD as a Toolbox
 
-The ability to do Test-Driven Development (TDD) is not a binary "can or cannot"
-skill. It's about having a wide range of techniques, patterns, tricks, and hacks
-in your toolbox. When you have enough of them, you can test almost anything in a
-reasonable amount of time.
+Ability to do TDD is not a binary "can or cannot", it is about having 1001
+things in your toolbox: techniques, patterns, tricks and hacks - when you have
+enough of them you can test almost everything.
 
 ### Legacy Code is Code Without Tests
 
