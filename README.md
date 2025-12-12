@@ -140,6 +140,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Testing as a Way to Manage Complexity](#testing-as-a-way-to-manage-complexity)
   - [Test It to Engineer It](#test-it-to-engineer-it)
   - [Improve Testability](#improve-testability)
+  - [Getting the first test to work](#getting-the-first-test-to-work)
 - [Distribution](#distribution)
   - [Provide Basic Test Sequences with Your Product](#provide-basic-test-sequences-with-your-product)
   - [Provide Drivers Alongside Your Hardware](#provide-drivers-alongside-your-hardware)
@@ -1831,12 +1832,17 @@ measurement and a core part of engineering.
 
 ### Improve Testability
 
-Ideally, everything should be testable. If something is difficult to test, it
-often signals a need to improve code quality, toolset, or testing
-infrastructure. With effort, these can be enhanced. If unsure how to test
-something, start with a simple approach: stub everything, simplify the network,
-assert what's necessary, then iterate on refining both the test and the system
-under test (SUT).
+Ideally, we should be able to test everything: if something is hard to test,
+then we are simply not there yet with the quality of our code or with the
+corresponding toolset and testing infrastructure. But we will manage to find or
+improve them and get there.
+
+### Getting the first test to work
+
+If you don't know, or are not sure, how to test something properly, try the
+ugliest version first: stub everything in an ugly way, stub the network in an
+ugly way, assert what you want to assert, and only then iterate on refactoring
+both the test and the SUT (system under test).
 
 ## Distribution
 
