@@ -22,7 +22,7 @@ arbitrarily. Please do not expect it to be polished.
 
 
 - [Day-to-Day Work](#day-to-day-work)
-  - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
+  - [Leave Work Better](#leave-work-better)
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
   - [Break Down Work](#break-down-work)
@@ -195,7 +195,7 @@ arbitrarily. Please do not expect it to be polished.
 
 ## Day-to-Day Work
 
-### Leave Work Better: Improving Today for a Simpler Tomorrow
+### Leave Work Better
 
 Always leave the work artifacts - whether code, documentation, diagrams, models,
 or others - in a better state than they were before, giving future you or
