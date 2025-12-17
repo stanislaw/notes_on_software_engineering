@@ -20,6 +20,7 @@ arbitrarily. Please do not expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Day-to-Day Work](#day-to-day-work)
   - [Leave Work Better: Improving Today for a Simpler Tomorrow](#leave-work-better-improving-today-for-a-simpler-tomorrow)
   - [Fast Feedback](#fast-feedback)
@@ -184,6 +185,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Success breeds failure](#success-breeds-failure)
   - [Safety as a Defensive Discipline](#safety-as-a-defensive-discipline)
   - [Safety for Engineering is Like Medicine for People](#safety-for-engineering-is-like-medicine-for-people)
+  - [Understanding as a Prerequisite for Safety Assessment](#understanding-as-a-prerequisite-for-safety-assessment)
   - [User Interfaces and Critical Systems](#user-interfaces-and-critical-systems)
 - [Books](#books)
 - [Similar resources](#similar-resources)
@@ -2379,6 +2381,15 @@ Not long ago, amputation was seen as the best way to treat many illnesses. This
 shows how much we've learned and how practices improve over time. Engineering
 also needs to grow in this way, moving beyond quick fixes to create stronger,
 longer-lasting solutions.
+
+### Understanding as a Prerequisite for Safety Assessment
+
+> Assessing whether a system is safe, requires understanding the system
+> sufficiently.
+
+Sources:
+[1](https://static.sched.com/hosted_files/eoss24/da/EOSS-ELISA-Enabling-OSS-philipp-ahmann.pdf),
+[2](https://lpc.events/event/18/contributions/1896/attachments/1666/3459/LPCMCSafeLinux%2020240920-latest%20Aspects%20of%20Dependable%20Linux%20Systems.pdf)
 
 ### User Interfaces and Critical Systems
 
