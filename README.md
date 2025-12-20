@@ -111,8 +111,6 @@ arbitrarily. Please do not expect it to be polished.
   - [Two Strategies for Replacing a Feature](#two-strategies-for-replacing-a-feature)
   - [Smallest Scope](#smallest-scope)
   - [Code Style as a Blocker](#code-style-as-a-blocker)
-  - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
-  - [The Moving and Changing Anti-pattern](#the-moving-and-changing-anti-pattern)
   - [Avoid Plural Names For Classes](#avoid-plural-names-for-classes)
   - [Fast Programming and Slow Programming](#fast-programming-and-slow-programming)
   - [Stable Components](#stable-components)
@@ -121,6 +119,10 @@ arbitrarily. Please do not expect it to be polished.
   - [Lack of Knowledge](#lack-of-knowledge)
   - [Lack of Knowledge II](#lack-of-knowledge-ii)
   - [Goodwill vs Pain](#goodwill-vs-pain)
+- [Version control, Git, code reviews](#version-control-git-code-reviews)
+  - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
+  - [The Moving and Changing Anti-pattern](#the-moving-and-changing-anti-pattern)
+  - [Git commit names: Context: Title.](#git-commit-names-context-title)
 - [Biases](#biases)
   - [If It Works, Then It Works Bias](#if-it-works-then-it-works-bias)
   - [Focusing only on what's most visible bias](#focusing-only-on-whats-most-visible-bias)
@@ -1578,24 +1580,6 @@ let expectedRemainingLoops =
   )
 ```
 
-### Simplifying Complex Feature Branches
-
-When working on a non-trivial feature branch, consider breaking it down into its
-core functionality while separating any trivial or unrelated changes that can be
-integrated independently.
-
-A complex branch can often become more manageable, or even medium in scope, when
-distilled into its essential parts and split into smaller, separate changes. In
-some cases, breaking it down properly can eliminate the complexity entirely,
-leaving only straightforward, incremental updates.
-
-### The Moving and Changing Anti-pattern
-
-A great anti-pattern that complicates code reviews is creating a changeset that
-involves both moving and changing things at the same time. This obscures the
-diffs in the version control system, making it harder to track changes. The
-solution: isolate moving and changing into separate commits or separate PRs.
-
 ### Avoid Plural Names For Classes
 
 Classes should represent a single entity or concept. Naming a class in the
@@ -1665,6 +1649,49 @@ in the end.
 
 Much of what we programmers learn over the years comes from pain, not from
 goodwill.
+
+## Version control, Git, code reviews
+
+### Simplifying Complex Feature Branches
+
+When working on a non-trivial feature branch, consider breaking it down into its
+core functionality while separating any trivial or unrelated changes that can be
+integrated independently.
+
+A complex branch can often become more manageable, or even medium in scope, when
+distilled into its essential parts and split into smaller, separate changes. In
+some cases, breaking it down properly can eliminate the complexity entirely,
+leaving only straightforward, incremental updates.
+
+### The Moving and Changing Anti-pattern
+
+A great anti-pattern that complicates code reviews is creating a changeset that
+involves both moving and changing things at the same time. This obscures the
+diffs in the version control system, making it harder to track changes. The
+solution: isolate moving and changing into separate commits or separate PRs.
+
+### Git commit names: Context: Title
+
+My experience of reading commits shows that I read commit titles better when
+they clearly indicate a context. A commit context can be the name of a topic of
+work, a software component name, or a software component folder. If I see a
+commit in the form context: title, I immediately recognize that it is about
+something within the scope of that context.
+
+The Conventional Commits specification implements this idea nicely because the
+context is placed inside parentheses, for example: feat(parser): support
+multiline attributes or fix(ui): prevent crash on empty input. Even without
+reading the commit body, the reader can quickly classify the change and decide
+whether it is relevant.
+
+In practice, the exact syntax matters less than the consistency of applying the
+idea. A short, stable context followed by a concise title significantly reduces
+cognitive load when scanning git log, reviewing pull requests, or searching
+through history.
+
+Sometimes the context can be omitted if the commit message itself tells enough
+of the story, especially when a project is just starting or is very small. Most
+of the time, however, I find that using a context is very useful.
 
 ## Biases
 
