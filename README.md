@@ -1515,7 +1515,7 @@ assured.
 Recognizing these limitations is essential. An architect, safety analyst, or
 engineer who understands the inherent constraints of models is better equipped
 to request or create additional representations when needed. Without the right
-models-or in the presence of misleading ones-analysis, design, and
+models, or in the presence of misleading ones-analysis, design, and
 decision-making can suffer.
 
 ### Pseudocode as a Modeling Tool
