@@ -44,6 +44,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
   - [Close the loops, acknowledge communication](#close-the-loops-acknowledge-communication)
+  - [Use Structure-Preserving Responses](#use-structure-preserving-responses)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
   - [Leverage Early Expert Review and Broad Feedback](#leverage-early-expert-review-and-broad-feedback)
   - [Talk in Person When You Can](#talk-in-person-when-you-can)
@@ -122,7 +123,7 @@ arbitrarily. Please do not expect it to be polished.
 - [Version control, Git, code reviews](#version-control-git-code-reviews)
   - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
   - [The Moving and Changing Anti-pattern](#the-moving-and-changing-anti-pattern)
-  - [Git commit names: Context: Title.](#git-commit-names-context-title)
+  - [Git commit names: Context: Title](#git-commit-names-context-title)
 - [Biases](#biases)
   - [If It Works, Then It Works Bias](#if-it-works-then-it-works-bias)
   - [Focusing only on what's most visible bias](#focusing-only-on-whats-most-visible-bias)
@@ -559,6 +560,26 @@ Not closing loops is often bad practice. Some examples include:
   delivered to a critical person.
 - A manager neglecting to follow up on an important topic raised by employees,
   leaving it unresolved in an inbox without due attention.
+
+### Use Structure-Preserving Responses
+
+Respond to customer, colleague, or stakeholder input by mirroring it one-to-one.
+Keep the same structure, order, and emphasis. If a message contains five points,
+respond to all five points in the same order. Treat every point as important and
+intentional. Do not assume that understanding is clear. Show understanding
+explicitly. This is not politeness. It is proof of understanding.
+
+Avoid the anti-pattern of selective response. Do not answer only one point and
+ignore the others. For example, if a message contains points 1a, 1b, 2, 3a, and
+3b, do not respond only to 3a. Such responses leave the communication
+incomplete. They create false agreement and hide misunderstanding. Problems then
+appear later, when they are harder and more expensive to fix.
+
+Apply this discipline not only to written requirements, but also to emails,
+workshops, and formal reviews. Use structure-preserving responses to make
+understanding visible and reviewable. By respecting the structure of the
+message, show that you did not only read the words, but fully understood the
+sender's thinking.
 
 ### Keep Everyone in the Loop
 
