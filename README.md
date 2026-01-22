@@ -43,7 +43,7 @@ arbitrarily. Please do not expect it to be polished.
 - [Teamwork and Communication](#teamwork-and-communication)
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
-  - [Close the loops, acknowledge communication](#close-the-loops-acknowledge-communication)
+  - [Close the loops, acknowledge communication, always follow up](#close-the-loops-acknowledge-communication-always-follow-up)
   - [Use Structure-Preserving Responses](#use-structure-preserving-responses)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
   - [Leverage Early Expert Review and Broad Feedback](#leverage-early-expert-review-and-broad-feedback)
@@ -520,7 +520,7 @@ tasks and is open to discussion, iteration, and improvement.
 This activity not only serves an informational purpose (increasing awareness)
 but also has learning, motivational, and even entertaining aspects.
 
-### Close the loops, acknowledge communication
+### Close the loops, acknowledge communication, always follow up
 
 A "loop" refers to any situation where one action is followed by another that
 resolves the first action in some way. Often, these loops are explicitly called
