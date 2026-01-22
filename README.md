@@ -675,7 +675,9 @@ any time, whether intentionally or unintentionally.
 ### Loop in Experts for Important Actions
 
 When making an important decision, involve the right experts. It is better to
-include too many people than to miss someone who should have been part of it.
+include too many people than to miss someone who should have been part of the
+process. This practice is especially important when critical decisions with
+far-reaching consequences are to be made.
 
 If you are writing an email or message that speaks for your team or group, check
 it with others first. Make sure the message reflects what everyone agrees on.
