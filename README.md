@@ -1404,6 +1404,7 @@ design constraint.
 - Separate application-level code from system-level code
 - Separate methods that read from methods that write
 - Separate decision from condition
+- Separate/abstract interface from implementation
 - Separate One from Many, separate Many from Many.
 
 Example 1: "Monolithic test case files"
