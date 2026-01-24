@@ -77,7 +77,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Poor Abstraction](#poor-abstraction)
   - [Cost of Abstraction](#cost-of-abstraction)
   - [Habitability](#habitability)
-  - [Hard Feature](#hard-feature)
+  - [Hard Things](#hard-things)
   - [True Name](#true-name)
   - [One Pattern per Class](#one-pattern-per-class)
   - [Archetype](#archetype)
@@ -1155,10 +1155,18 @@ Habitable software is better than perfect software.
 > without having to think deeply about where it is. It's something like clarity,
 > but clarity is too hard to come by.
 
-### Hard Feature
+### Hard Things
 
-If a feature is hard to implement it might indicate that it is something wrong
-with the feature (or product).
+If something is hard to implement or hard to work with, it might indicate that
+there is something wrong with it. Not all things are healthy in the end, so one
+must recognize what is worth pursuing and what needs to be flagged as unworthy.
+
+This applies not only to product features, but to everything we work with:
+software components or architectures designed by us or by others, third-party
+libraries, and even project plans or product visions. When an idea, abstraction,
+or dependency consistently resists implementation or integration, the difficulty
+itself can be a signal that the underlying concept is unclear, overcomplicated,
+or mismatched with reality.
 
 ### True Name
 
