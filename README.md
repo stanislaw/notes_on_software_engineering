@@ -37,6 +37,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Plant the Tasks, Let the Mind Work](#plant-the-tasks-let-the-mind-work)
   - [Strive for Clarity](#strive-for-clarity)
   - [Exercise sound judgment](#exercise-sound-judgment)
+  - [Be Prepared](#be-prepared)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
@@ -420,6 +421,27 @@ such cases, a better decision may be to learn more about the standard or policy,
 understand the rationale behind it, or gather additional information before
 acting. Sound judgment develops through experience and reflection and requires a
 certain amount of personal courage.
+
+### Be Prepared
+
+Anticipate and prepare for tasks in advance. The famous principle "be prepared"
+applies to software engineering just as it does to any other field. Prepare and
+script in advance everything that can be anticipated - this allows you to
+deliver with high efficiency, good timing, and a positive atmosphere during and
+after the activity.
+
+Plan your work week ahead of time. Think through work items before starting
+because this makes the week flow more smoothly. Prepare meetings carefully to
+make them more productive. Organize workshops, reviews, and other business
+events in advance to ensure they proceed efficiently and achieve their goals.
+
+Precompile and structure training materials to make trainings and demonstrations
+more effective. Prepare conference presentations thoroughly to deliver them
+confidently and clearly.
+
+Ensure that participants receive well-prepared content. When preparation is done
+properly, everything appears seamless, easy, and concise. Avoid insufficient
+preparation, which leads to confusion, inefficiency, and a poor impression.
 
 ### Everything Explicit. No Magic.
 
