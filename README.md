@@ -949,22 +949,44 @@ least 3 of them. See also **Duplication is better than poor abstraction**.
 
 ### Masking (Shadowing)
 
-Masking/shadowing of all kinds is dangerous and should be avoided or treated
-with a great care.
+Masking, also called shadowing, is dangerous and should be avoided or handled
+with great care. It happens when one thing looks or means almost the same as
+another thing. Because of this similarity, it is easy to confuse one with the
+other. This makes the system harder to understand.
 
-Examples:
+The main problem with masking is that it hides important information. Real
+differences become difficult to see. People may make assumptions without
+noticing them. As a result, developers can build a wrong understanding of the
+system. Masking can lead to small bugs, wrong implementations, bad decisions,
+or, in serious cases, larger system or project failures. Very often, such
+problems are discovered late because everything looks correct at first sight.
 
-- errors introduced to the systems when overlapping requirements are implemented
-  over time
-- masking in MC/DC
-- shadowing of variable declarations
-- typographically ambiguous symbols with overlapping visibility like `l` and
-  `1`, `O` and `0` (see MISRA guidelines)
-- code reviews: real bugs can hide behind less important but more noticeable
-  issues like typos or coding style details
-- bugs often hide themselves behind complexity
+Typical examples include:
 
-See also Overlapping Control.
+- Overlapping or very similar requirements that are implemented over time and
+  later cause inconsistent or conflicting behavior.
+
+- Shadowing of variable declarations, where a variable in an inner scope hides a
+  variable from an outer scope.
+
+- Using the same variable name in similar or overlapping contexts, which
+  increases the risk of confusion.
+
+- Typographically ambiguous symbols that look similar, such as l and 1, or O and
+  0 (see MISRA guidelines).
+
+- Code reviews, where real bugs are hidden by more visible but less important
+  issues, such as typos or small style problems.
+
+- Masking effects in MC/DC, where tests look complete but do not really separate
+  important conditions.
+
+- High complexity, where bugs hide behind many layers or unnecessary details.
+
+In general, masking reduces clarity and increases mental effort. Systems with
+masking are harder to understand and more likely to cause human errors.
+
+See also: Overlapping Control.
 
 ### Weighting system
 
