@@ -36,6 +36,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Task Sequencing: Group Related Activities for Efficiency](#task-sequencing-group-related-activities-for-efficiency)
   - [Plant the Tasks, Let the Mind Work](#plant-the-tasks-let-the-mind-work)
   - [Strive for Clarity](#strive-for-clarity)
+  - [Exercise sound judgment](#exercise-sound-judgment)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
@@ -398,6 +399,27 @@ knowledge about the system for others.
 - Use plain English and diagrams to explain complex topics to your colleagues.
   Test your content with them to ensure it is accessible. If it's still unclear,
   ask for their feedback to improve it.
+
+### Exercise sound judgment
+
+Learn to recognize when an established pattern or guideline should be followed
+and when it should not. Apply rules with sensitivity to context and priorities
+instead of treating them as absolute. Be ready to make calls in situations where
+existing rules or processes do not yet provide clear guidance, which often
+happens with new technologies, new problems, or unfamiliar constraints. Accept
+that difficult situations sometimes require clearly saying YES or NO, or
+deliberately making an exception to a rule, policy, or established practice.
+
+Use sound judgment in concrete situations such as deciding whether to follow a
+coding guideline strictly or make a justified exception, whether to adopt or
+retire a technology, create or dissolve a team, prioritize an initiative, or
+stop work that is no longer proving effective. At the same time, recognize the
+limits of your own knowledge. What may look like an outdated or incomplete
+policy can also be a sign of missing context or insufficient understanding. In
+such cases, a better decision may be to learn more about the standard or policy,
+understand the rationale behind it, or gather additional information before
+acting. Sound judgment develops through experience and reflection and requires a
+certain amount of personal courage.
 
 ### Everything Explicit. No Magic.
 
