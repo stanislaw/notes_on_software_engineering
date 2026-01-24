@@ -83,17 +83,17 @@ def list_tasks(context):
 
 
 @task
-def toc(context):
+def lint_toc(context):
     run_invoke(context, "doctoc README.md")
 
 
 @task
-def format(context):
+def lint_format(context):
     run_invoke(context, "prettier --write --print-width 80 --prose-wrap always README.md")
     normalize_file("README.md", "README.md")
 
 
 @task(aliases=["l"])
 def lint(context):
-    format(context)
-    toc(context)
+    lint_format(context)
+    lint_toc(context)
