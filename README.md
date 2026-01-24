@@ -147,6 +147,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Test It to Engineer It](#test-it-to-engineer-it)
   - [Improve Testability](#improve-testability)
   - [Getting the first test to work](#getting-the-first-test-to-work)
+  - [What to Test](#what-to-test)
 - [Distribution](#distribution)
   - [Provide Basic Test Sequences with Your Product](#provide-basic-test-sequences-with-your-product)
   - [Provide Drivers Alongside Your Hardware](#provide-drivers-alongside-your-hardware)
@@ -1969,6 +1970,22 @@ If you don't know, or are not sure, how to test something properly, try the
 ugliest version first: stub everything in an ugly way, stub the network in an
 ugly way, assert what you want to assert, and only then iterate on refactoring
 both the test and the SUT (system under test).
+
+### What to Test
+
+When writing a test and there are no clear rules or formal requirements for what
+to prioritize, start simple: first test the most common successful "green"
+case(s), representing nominal functionality, then add a test for the most
+obvious "red" case-error handling in an off-nominal scenario when things go
+wrong.
+
+Depending on the problem type and available time, having just one green and one
+red case can already provide reasonable initial coverage-often enough for a
+feature branch to be safely integrated into the main branch.
+
+For projects with stricter requirements, all possible cases should be covered
+immediately. Even then, starting with the first green/red pair can serve as an
+easy mental entry point into the testing process.
 
 ## Distribution
 
