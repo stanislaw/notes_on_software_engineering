@@ -36,6 +36,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Task Sequencing: Group Related Activities for Efficiency](#task-sequencing-group-related-activities-for-efficiency)
   - [Plant the Tasks, Let the Mind Work](#plant-the-tasks-let-the-mind-work)
   - [Strive for Clarity](#strive-for-clarity)
+  - [Provide your communication with clear evidence](#provide-your-communication-with-clear-evidence)
   - [Exercise sound judgment](#exercise-sound-judgment)
   - [Be Prepared](#be-prepared)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
@@ -401,6 +402,18 @@ knowledge about the system for others.
 - Use plain English and diagrams to explain complex topics to your colleagues.
   Test your content with them to ensure it is accessible. If it's still unclear,
   ask for their feedback to improve it.
+
+### Provide your communication with clear evidence
+
+When you share your own work or thoughts, or the work or thoughts of others,
+make it short and easy to understand. Add clear and simple visual materials or
+examples.
+
+Whenever you can, include diagrams, screenshots, code blocks, logs, or similar
+items. These give direct proof and make your message clear.
+
+For every message you send, try to give the clearest evidence. This helps the
+receiver understand you right away, without extra effort.
 
 ### Exercise sound judgment
 
