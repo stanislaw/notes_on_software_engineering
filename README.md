@@ -1,4 +1,4 @@
-# Notes on Software Engineering
+# Notes on Professional Software Engineering
 
 This repository contains a collection of notes and lessons learned that I have
 gathered over time during my work as a software engineer.
