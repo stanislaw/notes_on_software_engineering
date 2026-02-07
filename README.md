@@ -26,6 +26,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
   - [Break Down Work](#break-down-work)
+  - [Isolate problems into safe sandboxes](#isolate-problems-into-safe-sandboxes)
   - [Look Outside Your Immediate Task, Maintain the Bigger Picture](#look-outside-your-immediate-task-maintain-the-bigger-picture)
   - [Avoid Work That Can Be Avoided](#avoid-work-that-can-be-avoided)
   - [Understand and Respect the Customer](#understand-and-respect-the-customer)
@@ -267,6 +268,27 @@ Design the architecture so that work naturally fits its components.
 
 For splitting software components, see Separation / Partitioning. Also, check
 Point of View for more context.
+
+### Isolate problems into safe sandboxes
+
+It often helps to isolate a problem in a small, safe sandbox. A problem can be
+related to learning, debugging, or any task that needs strong focus away from a
+bigger system. A safe sandbox is an environment where you can comfortably make
+changes, revert them, break things, and maintain a secure space for research and
+experimentation.
+
+Examples:
+
+- To learn Git or a build system like CMake, create a standalone repository in
+  your /tmp folder and try all kinds of safe experiments.
+- To debug a system or a bug, create a minimal working example. Include just
+  enough detail to reproduce the issue. Troubleshooting a problem in an isolated
+  environment is usually much easier than working inside the full original
+  system.
+- When designing a new feature or system architecture, isolate the existing
+  project into a sandbox. Keep only the relevant parts for your task and design
+  the new feature on a small scale to prove the concept. Once it is clear that
+  the solution will scale, adapt it to work within the larger system.
 
 ### Look Outside Your Immediate Task, Maintain the Bigger Picture
 
