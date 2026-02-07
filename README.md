@@ -43,6 +43,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
   - [Use Diagrams](#use-diagrams)
+  - [Name technologies correctly](#name-technologies-correctly)
 - [Teamwork and Communication](#teamwork-and-communication)
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
@@ -551,6 +552,19 @@ like rectangles and arrows, avoid excessive colors or different shapes, and
 express your concepts with the fewest visual elements possible. Creating
 diagrams that are too visually complex hinders understanding and reduces their
 effectiveness.
+
+### Name technologies correctly
+
+When working with code, documentation, or communication with others, name all
+keywords and technologies correctly. Don't misspell them or shorten them in
+non-conventional ways.
+
+Examples:
+
+- GitHub is `GitHub`, not gitHub or github.
+- `NASA cFS`, not NASA CFS.
+- Python, not python or Py.
+- SQL, not sql or Sql.
 
 ## Teamwork and Communication
 
