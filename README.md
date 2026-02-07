@@ -1,4 +1,4 @@
-# Notes on Professional Software Engineering
+# Notes on Software Engineering
 
 This repository contains a collection of notes and lessons learned that I have
 gathered over time during my work as a software engineer.
@@ -22,7 +22,7 @@ arbitrarily. Please do not expect it to be polished.
 
 
 - [Day-to-Day Work](#day-to-day-work)
-  - [Leave Work Better](#leave-work-better)
+  - [Leave Things Better](#leave-things-better)
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
   - [Break Down Work](#break-down-work)
@@ -202,11 +202,29 @@ arbitrarily. Please do not expect it to be polished.
 
 ## Day-to-Day Work
 
-### Leave Work Better
+### Leave Things Better
 
-Always leave the work artifacts - whether code, documentation, diagrams, models,
-or others - in a better state than they were before, giving future you or
-someone else the opportunity to improve them even further.
+Treat everything you work with as something you take care of for a while. Leave
+it in a better state than you found it, even if the improvement is small.
+
+This includes shared systems and environments - code, documentation, tools,
+processes, communication, and physical spaces.
+
+Do this even when:
+
+- the improvement is small,
+- the benefit is not immediately obvious,
+- you do not gain anything yourself.
+
+This mindset helps future you and others improve things further, instead of
+spending time fixing problems caused by neglect.
+
+Examples:
+
+- Fixing a small bug in code you touch, even if it is outside your main task.
+- Cleaning up a messy shared document or folder for the next person.
+- Refilling the coffee machine for others, even if you do not need a cup
+  yourself.
 
 ### Fast Feedback
 
