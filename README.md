@@ -39,6 +39,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Provide your communication with clear evidence](#provide-your-communication-with-clear-evidence)
   - [Exercise sound judgment](#exercise-sound-judgment)
   - [Be Prepared](#be-prepared)
+  - [Express critique but be ready to help](#express-critique-but-be-ready-to-help)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
@@ -475,6 +476,28 @@ confidently and clearly.
 Ensure that participants receive well-prepared content. When preparation is done
 properly, everything appears seamless, easy, and concise. Avoid insufficient
 preparation, which leads to confusion, inefficiency, and a poor impression.
+
+### Express critique and be ready to help
+
+Sometimes work or the systems around you are not perfect. In these cases, it is
+important to give feedback and point out problems in work or systems you both
+use.
+
+Critique that is not constructive is rarely well received and usually not
+actionable.
+
+Before giving criticism, consider how you can personally help improve the
+situation. Support can take different forms:
+
+- Volunteer to fix the problem yourself.
+- Suggest a possible improvement, such as a new design, architecture, or
+  practical solution.
+- Communicate with management or other teams to help resolve the issue.
+- Suggest tracking the problem so it can be addressed later by someone else.
+
+Always back your critique with actionable suggestions and be ready to follow
+through yourself. Don't just complain or point out imperfections without helping
+to improve them.
 
 ### Everything Explicit. No Magic.
 
