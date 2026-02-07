@@ -39,7 +39,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Provide your communication with clear evidence](#provide-your-communication-with-clear-evidence)
   - [Exercise sound judgment](#exercise-sound-judgment)
   - [Be Prepared](#be-prepared)
-  - [Express critique but be ready to help](#express-critique-but-be-ready-to-help)
+  - [Express critique and be ready to help](#express-critique-and-be-ready-to-help)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
@@ -688,11 +688,29 @@ ignore the others. For example, if a message contains points 1a, 1b, 2, 3a, and
 incomplete. They create false agreement and hide misunderstanding. Problems then
 appear later, when they are harder and more expensive to fix.
 
-Apply this discipline not only to written requirements, but also to emails,
-workshops, and formal reviews. Use structure-preserving responses to make
-understanding visible and reviewable. By respecting the structure of the
-message, show that you did not only read the words, but fully understood the
-sender's thinking.
+In regulated industries, such as space, aerospace, and railway, structured
+communication tools are common, for example:
+
+- Requirements traceability matrix,
+- Compliance matrix,
+- Detailed and structured documentation templates for customer-supplier
+  communication,
+- Etc.
+
+These tools embody the idea of structure-preserving responses. For instance, if
+a customer sends a list of 100 requirements, they could expect a compliance
+matrix table in return where each requirement is addressed individually. This
+allows the customer to:
+
+1. Assess completeness ("no topic is left unaddressed")
+2. Focus on each item for discussion or negotiation. For example, today we are
+   going to discuss the requirement #53...
+
+You do not need to use structured matrices all the time, but the principle still
+applies. Apply it to emails, workshops, formal reviews, and any discussion where
+multiple points are raised. Structure-preserving responses make understanding
+visible and reviewable. By respecting the sender's structure, you show that you
+did not just read the words, but fully understood the thinking behind them.
 
 ### Keep Everyone in the Loop
 
