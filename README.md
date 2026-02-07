@@ -608,8 +608,8 @@ Examples:
 
 - GitHub is `GitHub`, not gitHub or github.
 - `NASA cFS`, not NASA CFS.
-- Python, not python or Py.
-- SQL, not sql or Sql.
+- `Python`, not python or Py.
+- `SQL`, not sql or Sql.
 
 ## Teamwork and Communication
 
