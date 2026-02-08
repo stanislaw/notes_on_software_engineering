@@ -1870,6 +1870,13 @@ distilled into its essential parts and split into smaller, separate changes. In
 some cases, breaking it down properly can eliminate the complexity entirely,
 leaving only straightforward, incremental updates.
 
+Experience shows that splitting work into smaller pieces helps reveal subtle
+issues or even bugs more easily. This happens because both the author and the
+reviewers can focus on a smaller scope without being distracted by irrelevant
+details. A practical rule of thumb is the following: if there is an opportunity
+to split the work, it is usually better to do so, as this often pays off through
+easier reviews and faster integration.
+
 ### The Moving and Changing Anti-pattern
 
 A great anti-pattern that complicates code reviews is creating a changeset that
