@@ -1338,6 +1338,11 @@ or dependency consistently resists implementation or integration, the difficulty
 itself can be a signal that the underlying concept is unclear, overcomplicated,
 or mismatched with reality.
 
+A common example is reading documents or technical writing. If something is very
+hard to read, it often indicates a real issue. If you have the chance, give
+feedback to the writer or improve the text yourself. Too often, people avoid
+giving feedback, and difficult writing stays unclear for years.
+
 ### True Name
 
 If you know [True Name](https://en.wikipedia.org/wiki/True_name) of something
