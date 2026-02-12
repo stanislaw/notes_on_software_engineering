@@ -40,6 +40,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Provide your communication with clear evidence](#provide-your-communication-with-clear-evidence)
   - [Exercise sound judgment](#exercise-sound-judgment)
   - [Be Prepared](#be-prepared)
+  - [Be aligned with your supervisor](#be-aligned-with-your-supervisor)
   - [Express critique and be ready to help](#express-critique-and-be-ready-to-help)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
@@ -498,6 +499,21 @@ confidently and clearly.
 Ensure that participants receive well-prepared content. When preparation is done
 properly, everything appears seamless, easy, and concise. Avoid insufficient
 preparation, which leads to confusion, inefficiency, and a poor impression.
+
+### Be aligned with your supervisor
+
+Always stay aligned with your supervisor. Try to understand what is important
+for them: their priorities, roadmap, and challenges. Notice how your supervisor
+and team work together, and see how your tasks fit into the bigger picture.
+Always do the tasks your supervisor gives you, even if they seem small or
+informal. Do not "drop things on the floor". Always follow up on anything left
+open in your communication with your supervisor.
+
+Work situations can be different. Some supervisors are great leaders and
+mentors, and some are less inspiring. Much depends on personality. In any case,
+the best natural approach is to stay aligned. If you do this well, a good
+supervisor will notice and appreciate your effort, which will benefit both your
+work and your career development.
 
 ### Express critique and be ready to help
 
