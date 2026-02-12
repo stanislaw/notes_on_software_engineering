@@ -165,6 +165,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Encyclopedic Document](#encyclopedic-document)
 - [Meetings](#meetings)
   - [Sound Check](#sound-check)
+  - [Ensure the key people are attending](#ensure-the-key-people-are-attending)
   - [Meeting Agenda](#meeting-agenda)
   - [Meeting Notes](#meeting-notes)
   - [Capturing Meeting Results](#capturing-meeting-results)
@@ -2246,6 +2247,15 @@ smoothly. A good rule of thumb is to join:
 - 5 minutes early for routine meetings.
 - 15-30+ minutes early for important meetings, to handle any technical issues in
   advance.
+
+### Ensure the key people are attending
+
+Some meetings have key attendees who must be present for the meeting to be
+effective. Make sure all key people have checked in and no one is left out.
+People may be late or missing for many reasons, including technical issues with
+meeting software. If the meeting has an important strategic goal, confirm that
+all key attendees are present. If someone important is missing, check with them
+or their contact before deciding to proceed without them.
 
 ### Meeting Agenda
 
