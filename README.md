@@ -80,6 +80,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Weighting system](#weighting-system)
 - [Design](#design)
   - [Functional analysis and decomposition](#functional-analysis-and-decomposition)
+  - [Dump and Organize](#dump-and-organize)
   - [Poor Abstraction](#poor-abstraction)
   - [Cost of Abstraction](#cost-of-abstraction)
   - [Habitability](#habitability)
@@ -1254,6 +1255,19 @@ functional decomposition and partitioning:
 
 See
 [SYSTEMS ENGINEERING FUNDAMENTALS](https://ocw.mit.edu/courses/16-885j-aircraft-systems-engineering-fall-2005/6128a102c1a9b6dbd30f2fb18c12aa64_sefguide_01_01.pdf).
+
+### Dump and Organize
+
+Dump and Organize is a practical way to make sense of a complex system. First,
+you put all the elements, blocks, or parts on a "canvas" without any order. The
+goal is to see everything and make sure nothing is missed, even if it looks
+messy at first.
+
+Next, you start grouping the elements into clusters and talk with others to
+decide what belongs together. Gradually, the structure becomes clear and stable.
+This method works for things like FBS, WBS, interface diagrams, and other
+engineering models. It helps you go from a messy list to a clear, usable
+structure without forcing rules too early.
 
 ### Poor Abstraction
 
