@@ -735,9 +735,10 @@ increases the chance of receiving a well-structured response. If a section
 contains multiple topics, divide it into numbered subsections. This allows the
 reader to mirror your structure in their reply.
 
-Some people may ignore your structure even if it is clear. However, most
-professional engineers will follow it. Communication becomes much easier when
-all parties use and understand similar structures.
+A clear structure does not guarantee a structured response unless it is
+explicitly agreed upon. However, many engineers will naturally respond using the
+same structure. Communication becomes much easier when all parties use and
+understand similar formats.
 
 ### Give Structure-Preserving Responses
 
