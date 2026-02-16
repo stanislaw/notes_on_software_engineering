@@ -51,7 +51,8 @@ arbitrarily. Please do not expect it to be polished.
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
   - [Close the loops, acknowledge communication, always follow up](#close-the-loops-acknowledge-communication-always-follow-up)
-  - [Use Structure-Preserving Responses](#use-structure-preserving-responses)
+  - [Communicate with Clear Structure](#communicate-with-clear-structure)
+  - [Give Structure-Preserving Responses](#give-structure-preserving-responses)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
   - [Leverage Early Expert Review and Broad Feedback](#leverage-early-expert-review-and-broad-feedback)
   - [Talk in Person When You Can](#talk-in-person-when-you-can)
@@ -714,7 +715,31 @@ Not closing loops is often bad practice. Some examples include:
 - A manager neglecting to follow up on an important topic raised by employees,
   leaving it unresolved in an inbox without due attention.
 
-### Use Structure-Preserving Responses
+### Communicate with Clear Structure
+
+To receive structured answers, ask structured questions.
+
+When writing messages such as email or chat, do not put all your questions in
+one long paragraph. Use a numbered list when appropriate. For longer texts,
+write one clear paragraph per number. This helps the reader understand your
+message and respond point by point.
+
+When questions are written as a numbered list, it is easier to answer using the
+same structure. The other person does not need to reorganize your text before
+replying.
+
+Structured writing is also important for documents. For example, when writing a
+request-for-information document, use a clear structure. If possible, follow a
+common template used in your industry. This makes your expectations clear and
+increases the chance of receiving a well-structured response. If a section
+contains multiple topics, divide it into numbered subsections. This allows the
+reader to mirror your structure in their reply.
+
+Some people may ignore your structure even if it is clear. However, most
+professional engineers will follow it. Communication becomes much easier when
+all parties use and understand similar structures.
+
+### Give Structure-Preserving Responses
 
 Respond to customer, colleague, or stakeholder input by mirroring it one-to-one.
 Keep the same structure, order, and emphasis. If a message contains five points,
