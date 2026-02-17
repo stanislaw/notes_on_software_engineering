@@ -39,6 +39,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Strive for Clarity](#strive-for-clarity)
   - [Provide your communication with clear evidence](#provide-your-communication-with-clear-evidence)
   - [Exercise sound judgment](#exercise-sound-judgment)
+  - [Capture Invisible Work](#capture-invisible-work)
   - [Be Prepared](#be-prepared)
   - [Be aligned with your supervisor](#be-aligned-with-your-supervisor)
   - [Express critique and be ready to help](#express-critique-and-be-ready-to-help)
@@ -481,6 +482,44 @@ such cases, a better decision may be to learn more about the standard or policy,
 understand the rationale behind it, or gather additional information before
 acting. Sound judgment develops through experience and reflection and requires a
 certain amount of personal courage.
+
+### Capture Invisible Work
+
+Capture invisible work products in documentation or development artifacts such
+as code, requirements, diagrams, or tests. Invisible work includes all the
+effort required to produce the final visible result. Often, the amount of
+invisible work is much greater than what is ultimately delivered.
+
+Recognize invisible work and select an appropriate medium to document it, so
+colleagues can follow how your solution evolved. The goal is to make your
+reasoning and investigation traceable, not just the final outcome, and to
+preserve the knowledge gained during execution.
+
+Ideally, documentation should be proportional to the size and complexity of BOTH
+the visible and invisible parts of the work, not only to the size of the visible
+change. Another important dimension is the cost of the invisible work. If an
+employer or stakeholder pays for several days of investigation and learning,
+this effort should be reflected in the project artifacts.
+
+Example:
+
+A developer spends three days fixing a bug but changes only one line of code.
+The changeset does not provide a clear trace of the investigation, root cause,
+or conditions that allowed the bug to exist.
+
+When the principle of documenting invisible work is applied, even a small code
+change can represent significant effort and learning and should be recorded,
+even in a short, precise statement.
+
+Bugs often arise from subtle coupling between parts of the system, for example
+through timing, shared state, or implicit assumptions. If uncovering the fix
+required identifying such coupling, this insight must be documented, not just
+the code change.
+
+At a minimum, every bug fix should include an automated test that reproduces the
+issue and prevents regression. In many cases, a brief explanation in the code,
+documentation, commit message, or issue tracker is also necessary to preserve
+the knowledge gained.
 
 ### Be Prepared
 
