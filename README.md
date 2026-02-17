@@ -20,46 +20,45 @@ arbitrarily. Please do not expect it to be polished.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Day-to-Day Work](#day-to-day-work)
   - [Leave Things Better](#leave-things-better)
   - [Fast Feedback](#fast-feedback)
   - [Start Simple](#start-simple)
   - [Break Down Work](#break-down-work)
-  - [Isolate problems into safe sandboxes](#isolate-problems-into-safe-sandboxes)
+  - [Isolate Problems into Safe Sandboxes](#isolate-problems-into-safe-sandboxes)
   - [Look Outside Your Immediate Task, Maintain the Bigger Picture](#look-outside-your-immediate-task-maintain-the-bigger-picture)
   - [Avoid Work That Can Be Avoided](#avoid-work-that-can-be-avoided)
   - [Understand and Respect the Customer](#understand-and-respect-the-customer)
   - [Choose Where to Innovate (Carefully)](#choose-where-to-innovate-carefully)
-  - [Automate everything](#automate-everything)
-  - [Quick exploration](#quick-exploration)
+  - [Automate Everything](#automate-everything)
+  - [Quick Exploration](#quick-exploration)
   - [Stay Curious and Explore](#stay-curious-and-explore)
   - [Task Sequencing: Group Related Activities for Efficiency](#task-sequencing-group-related-activities-for-efficiency)
   - [Plant the Tasks, Let the Mind Work](#plant-the-tasks-let-the-mind-work)
   - [Strive for Clarity](#strive-for-clarity)
-  - [Provide your communication with clear evidence](#provide-your-communication-with-clear-evidence)
-  - [Exercise sound judgment](#exercise-sound-judgment)
+  - [Provide Your Communication with Clear Evidence](#provide-your-communication-with-clear-evidence)
+  - [Exercise Sound Judgment](#exercise-sound-judgment)
   - [Capture Invisible Work](#capture-invisible-work)
   - [Be Prepared](#be-prepared)
-  - [Be aligned with your supervisor](#be-aligned-with-your-supervisor)
-  - [Express critique and be ready to help](#express-critique-and-be-ready-to-help)
+  - [Be Aligned with Your Supervisor](#be-aligned-with-your-supervisor)
+  - [Express Critique and Be Ready to Help](#express-critique-and-be-ready-to-help)
   - [Everything Explicit. No Magic.](#everything-explicit-no-magic)
   - [Disown Your Work by Sharing It with the Team](#disown-your-work-by-sharing-it-with-the-team)
   - [Learn from Lessons](#learn-from-lessons)
   - [Use Diagrams](#use-diagrams)
-  - [Name technologies correctly](#name-technologies-correctly)
+  - [Name Technologies Correctly](#name-technologies-correctly)
 - [Teamwork and Communication](#teamwork-and-communication)
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
-  - [Close the loops, acknowledge communication, always follow up](#close-the-loops-acknowledge-communication-always-follow-up)
+  - [Close the Loops, Acknowledge Communication, Always Follow Up](#close-the-loops-acknowledge-communication-always-follow-up)
   - [Communicate with Clear Structure](#communicate-with-clear-structure)
   - [Give Structure-Preserving Responses](#give-structure-preserving-responses)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
   - [Leverage Early Expert Review and Broad Feedback](#leverage-early-expert-review-and-broad-feedback)
   - [Talk in Person When You Can](#talk-in-person-when-you-can)
-  - [Recognize the ideas and achievements of your colleagues](#recognize-the-ideas-and-achievements-of-your-colleagues)
+  - [Recognize the Ideas and Achievements of Your Colleagues](#recognize-the-ideas-and-achievements-of-your-colleagues)
   - [Praise Good Work](#praise-good-work)
-  - [Professional content](#professional-content)
+  - [Professional Content](#professional-content)
   - [Loop in Experts for Important Actions](#loop-in-experts-for-important-actions)
   - [Share What Works](#share-what-works)
   - [Share and Improve Team Workflows](#share-and-improve-team-workflows)
@@ -67,21 +66,21 @@ arbitrarily. Please do not expect it to be polished.
   - [Create a Superset of Conflicting Interests or Clarify the Problem](#create-a-superset-of-conflicting-interests-or-clarify-the-problem)
 - [Complexity and Cognitive Load](#complexity-and-cognitive-load)
   - [Solving Right Problems](#solving-right-problems)
-  - [Solutions are Context-Driven](#solutions-are-context-driven)
+  - [Solutions Are Context-Driven](#solutions-are-context-driven)
   - [Evolution from Local Optimum to Better Optimum](#evolution-from-local-optimum-to-better-optimum)
-  - [Weakest link](#weakest-link)
+  - [Weakest Link](#weakest-link)
   - [Point of View](#point-of-view)
   - [Periphery](#periphery)
   - [Rational and Unconscious](#rational-and-unconscious)
   - [Engineering as Input/Output: The Role of Prepared Inputs](#engineering-as-inputoutput-the-role-of-prepared-inputs)
-  - [Humans are not designed for Big Numbers](#humans-are-not-designed-for-big-numbers)
-  - [There is no such thing as Many](#there-is-no-such-thing-as-many)
+  - [Humans Are Not Designed for Big Numbers](#humans-are-not-designed-for-big-numbers)
+  - [There Is No Such Thing as Many](#there-is-no-such-thing-as-many)
   - [0-1-2-Many I](#0-1-2-many-i)
   - [0-1-2-Many II](#0-1-2-many-ii)
   - [Masking (Shadowing)](#masking-shadowing)
-  - [Weighting system](#weighting-system)
+  - [Weighting System](#weighting-system)
 - [Design](#design)
-  - [Functional analysis and decomposition](#functional-analysis-and-decomposition)
+  - [Functional Analysis and Decomposition](#functional-analysis-and-decomposition)
   - [Dump and Organize](#dump-and-organize)
   - [Poor Abstraction](#poor-abstraction)
   - [Cost of Abstraction](#cost-of-abstraction)
@@ -91,8 +90,8 @@ arbitrarily. Please do not expect it to be polished.
   - [One Pattern per Class](#one-pattern-per-class)
   - [Archetype](#archetype)
   - [Prima Materia](#prima-materia)
-  - [Mature automation](#mature-automation)
-  - ["Magic" is automation that is not adequate](#magic-is-automation-that-is-not-adequate)
+  - [Mature Automation](#mature-automation)
+  - ["Magic" Is Automation That Is Not Adequate](#magic-is-automation-that-is-not-adequate)
   - [Poisonous Systems](#poisonous-systems)
   - [Bad Design in House](#bad-design-in-house)
   - [Unnecessary Flexibility](#unnecessary-flexibility)
@@ -108,7 +107,7 @@ arbitrarily. Please do not expect it to be polished.
     - [Broken control loops](#broken-control-loops)
   - [Feedback](#feedback)
     - [Broken feedback loops](#broken-feedback-loops)
-  - [Separation / partitioning](#separation--partitioning)
+  - [Separation / Partitioning](#separation--partitioning)
   - [Trade-off of Encapsulation](#trade-off-of-encapsulation)
   - [Grouping](#grouping)
   - [Observability vs Correctness](#observability-vs-correctness)
@@ -117,12 +116,12 @@ arbitrarily. Please do not expect it to be polished.
   - [The Limits and Choices of Models and Diagrams](#the-limits-and-choices-of-models-and-diagrams)
   - [Pseudocode as a Modeling Tool](#pseudocode-as-a-modeling-tool)
 - [Coding, code reviews, and maintenance programming](#coding-code-reviews-and-maintenance-programming)
-  - [Code that Works](#code-that-works)
+  - [Code That Works](#code-that-works)
   - [Code Is Not Your Partner](#code-is-not-your-partner)
   - [Two Strategies for Replacing a Feature](#two-strategies-for-replacing-a-feature)
   - [Smallest Scope](#smallest-scope)
   - [Code Style as a Blocker](#code-style-as-a-blocker)
-  - [Avoid Plural Names For Classes](#avoid-plural-names-for-classes)
+  - [Avoid Plural Names for Classes](#avoid-plural-names-for-classes)
   - [Fast Programming and Slow Programming](#fast-programming-and-slow-programming)
   - [Stable Components](#stable-components)
   - [Boring Code](#boring-code)
@@ -132,29 +131,29 @@ arbitrarily. Please do not expect it to be polished.
   - [Goodwill vs Pain](#goodwill-vs-pain)
 - [Version control, Git, code reviews](#version-control-git-code-reviews)
   - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
-  - [The Moving and Changing Anti-pattern](#the-moving-and-changing-anti-pattern)
-  - [Git commit names: Context: Title](#git-commit-names-context-title)
+  - [The Moving and Changing Anti-Pattern](#the-moving-and-changing-anti-pattern)
+  - [Git Commit Names: Context: Title](#git-commit-names-context-title)
 - [Biases](#biases)
   - [If It Works, Then It Works Bias](#if-it-works-then-it-works-bias)
-  - [Focusing only on what's most visible bias](#focusing-only-on-whats-most-visible-bias)
+  - [Focusing Only on What's Most Visible Bias](#focusing-only-on-whats-most-visible-bias)
   - [The Fix Bias](#the-fix-bias)
   - [Resolving Merge Conflict Bias](#resolving-merge-conflict-bias)
 - [Reliability](#reliability)
-  - [Errors are not ok](#errors-are-not-ok)
-  - [Errors must be understood and described](#errors-must-be-understood-and-described)
-  - [Underlying errors shall not be hidden](#underlying-errors-shall-not-be-hidden)
-  - [Critical errors vs non-critical errors](#critical-errors-vs-non-critical-errors)
-  - [Assertions are better than no error handling](#assertions-are-better-than-no-error-handling)
-  - [Assertions are shortcuts for a proper error handling](#assertions-are-shortcuts-for-a-proper-error-handling)
+  - [Errors Are Not Ok](#errors-are-not-ok)
+  - [Errors Must Be Understood and Described](#errors-must-be-understood-and-described)
+  - [Underlying Errors Shall Not Be Hidden](#underlying-errors-shall-not-be-hidden)
+  - [Critical Errors vs Non-Critical Errors](#critical-errors-vs-non-critical-errors)
+  - [Assertions Are Better than No Error Handling](#assertions-are-better-than-no-error-handling)
+  - [Assertions Are Shortcuts for a Proper Error Handling](#assertions-are-shortcuts-for-a-proper-error-handling)
   - [Crash Early](#crash-early)
 - [Testing](#testing)
   - [Write Tests, Even Bad Ones](#write-tests-even-bad-ones)
   - [TDD as a Toolbox](#tdd-as-a-toolbox)
-  - [Legacy Code is Code Without Tests](#legacy-code-is-code-without-tests)
+  - [Legacy Code Is Code without Tests](#legacy-code-is-code-without-tests)
   - [Testing as a Way to Manage Complexity](#testing-as-a-way-to-manage-complexity)
   - [Test It to Engineer It](#test-it-to-engineer-it)
   - [Improve Testability](#improve-testability)
-  - [Getting the first test to work](#getting-the-first-test-to-work)
+  - [Getting the First Test to Work](#getting-the-first-test-to-work)
   - [What to Test](#what-to-test)
 - [Distribution](#distribution)
   - [Provide Basic Test Sequences with Your Product](#provide-basic-test-sequences-with-your-product)
@@ -163,43 +162,43 @@ arbitrarily. Please do not expect it to be polished.
 - [Documentation](#documentation)
   - [The Illusion of Easy Documentation](#the-illusion-of-easy-documentation)
   - [Software Design Document](#software-design-document)
-  - [Less prose, more structure](#less-prose-more-structure)
+  - [Less Prose, More Structure](#less-prose-more-structure)
   - [Too Much Structure Overload](#too-much-structure-overload)
   - [Encyclopedic Document](#encyclopedic-document)
 - [Meetings](#meetings)
   - [Sound Check](#sound-check)
-  - [Ensure the key people are attending](#ensure-the-key-people-are-attending)
+  - [Ensure the Key People Are Attending](#ensure-the-key-people-are-attending)
   - [Meeting Agenda](#meeting-agenda)
   - [Meeting Notes](#meeting-notes)
   - [Capturing Meeting Results](#capturing-meeting-results)
   - [Briefing In](#briefing-in)
-  - [Briefing out](#briefing-out)
+  - [Briefing Out](#briefing-out)
   - [Sharing Screen & Presenting Material](#sharing-screen--presenting-material)
 - [Systems](#systems)
-  - [Good enough is often best](#good-enough-is-often-best)
+  - [Good Enough Is Often Best](#good-enough-is-often-best)
   - [Designing Systems for Effective Work](#designing-systems-for-effective-work)
   - [The Risk of Default Outcomes](#the-risk-of-default-outcomes)
 - [People and Organizations](#people-and-organizations)
-  - [Everyone is busy](#everyone-is-busy)
+  - [Everyone Is Busy](#everyone-is-busy)
   - [Solving Problems with Cash](#solving-problems-with-cash)
   - [The Paradox of Rushing in Software/Systems Engineering](#the-paradox-of-rushing-in-softwaresystems-engineering)
-  - [Four seasons](#four-seasons)
+  - [Four Seasons](#four-seasons)
 - [Standards](#standards)
-  - [Idealized standards vs. practical implementation](#idealized-standards-vs-practical-implementation)
-  - [The challenge of standards implementation](#the-challenge-of-standards-implementation)
-  - [Standards and best practices](#standards-and-best-practices)
-  - [Standards favor good practice](#standards-favor-good-practice)
-  - [Wrong is worse than early or incomplete](#wrong-is-worse-than-early-or-incomplete)
+  - [Idealized Standards vs. Practical Implementation](#idealized-standards-vs-practical-implementation)
+  - [The Challenge of Standards Implementation](#the-challenge-of-standards-implementation)
+  - [Standards and Best Practices](#standards-and-best-practices)
+  - [Standards Favor Good Practice](#standards-favor-good-practice)
+  - [Wrong Is Worse than Early or Incomplete](#wrong-is-worse-than-early-or-incomplete)
   - [Standards vs Hardcoded Implementations](#standards-vs-hardcoded-implementations)
 - [Requirements](#requirements)
-  - [One-stop shopping](#one-stop-shopping)
+  - [One-Stop Shopping](#one-stop-shopping)
 - [Safety](#safety)
-  - [Safety does not exist without blood, loss or failure](#safety-does-not-exist-without-blood-loss-or-failure)
-  - [Safety is boring](#safety-is-boring)
-  - [Safety is very hard to achieve but is very easy to lose](#safety-is-very-hard-to-achieve-but-is-very-easy-to-lose)
-  - [Success breeds failure](#success-breeds-failure)
+  - [Safety Does Not Exist without Blood, Loss or Failure](#safety-does-not-exist-without-blood-loss-or-failure)
+  - [Safety Is Boring](#safety-is-boring)
+  - [Safety Is Very Hard to Achieve but Is Very Easy to Lose](#safety-is-very-hard-to-achieve-but-is-very-easy-to-lose)
+  - [Success Breeds Failure](#success-breeds-failure)
   - [Safety as a Defensive Discipline](#safety-as-a-defensive-discipline)
-  - [Safety for Engineering is Like Medicine for People](#safety-for-engineering-is-like-medicine-for-people)
+  - [Safety for Engineering Is like Medicine for People](#safety-for-engineering-is-like-medicine-for-people)
   - [Understanding as a Prerequisite for Safety Assessment](#understanding-as-a-prerequisite-for-safety-assessment)
   - [User Interfaces and Critical Systems](#user-interfaces-and-critical-systems)
 - [Books](#books)
@@ -274,7 +273,7 @@ Design the architecture so that work naturally fits its components.
 For splitting software components, see Separation / Partitioning. Also, check
 Point of View for more context.
 
-### Isolate problems into safe sandboxes
+### Isolate Problems into Safe Sandboxes
 
 It often helps to isolate a problem in a small, safe sandbox. A problem can be
 related to learning, debugging, or any task that needs strong focus away from a
@@ -376,14 +375,14 @@ product and cause missed deadlines.
 For a great explanation, refer to this
 [Boring Technology presentation](https://boringtechnology.club/).
 
-### Automate everything
+### Automate Everything
 
 Seek opportunities to automate processes or tasks. Automation eliminates busy
 work, freeing time for more valuable activities. It reduces human error,
 increases efficiency, and helps to maintain consistency. The best workflows are
 automated ones.
 
-### Quick exploration
+### Quick Exploration
 
 The solution you're looking for might be just two clicks and a couple of Google
 searches away.
@@ -450,7 +449,7 @@ knowledge about the system for others.
   Test your content with them to ensure it is accessible. If it's still unclear,
   ask for their feedback to improve it.
 
-### Provide your communication with clear evidence
+### Provide Your Communication with Clear Evidence
 
 When you share your own work or thoughts, or the work or thoughts of others,
 make it short and easy to understand. Add clear and simple visual materials or
@@ -462,7 +461,7 @@ items. These give direct proof and make your message clear.
 For every message you send, try to give the clearest evidence. This helps the
 receiver understand you right away, without extra effort.
 
-### Exercise sound judgment
+### Exercise Sound Judgment
 
 Learn to recognize when an established pattern or guideline should be followed
 and when it should not. Apply rules with sensitivity to context and priorities
@@ -542,7 +541,7 @@ Ensure that participants receive well-prepared content. When preparation is done
 properly, everything appears seamless, easy, and concise. Avoid insufficient
 preparation, which leads to confusion, inefficiency, and a poor impression.
 
-### Be aligned with your supervisor
+### Be Aligned with Your Supervisor
 
 Always stay aligned with your supervisor. Try to understand what is important
 for them: their priorities, roadmap, and challenges. Notice how your supervisor
@@ -557,7 +556,7 @@ the best natural approach is to stay aligned. If you do this well, a good
 supervisor will notice and appreciate your effort, which will benefit both your
 work and your career development.
 
-### Express critique and be ready to help
+### Express Critique and Be Ready to Help
 
 Sometimes work or the systems around you are not perfect. In these cases, it is
 important to give feedback and point out problems in work or systems you both
@@ -656,7 +655,7 @@ express your concepts with the fewest visual elements possible. Creating
 diagrams that are too visually complex hinders understanding and reduces their
 effectiveness.
 
-### Name technologies correctly
+### Name Technologies Correctly
 
 When working with code, documentation, or communication with others, name all
 keywords and technologies correctly. Don't misspell them or shorten them in
@@ -713,7 +712,7 @@ tasks and is open to discussion, iteration, and improvement.
 This activity not only serves an informational purpose (increasing awareness)
 but also has learning, motivational, and even entertaining aspects.
 
-### Close the loops, acknowledge communication, always follow up
+### Close the Loops, Acknowledge Communication, Always Follow Up
 
 A "loop" refers to any situation where one action is followed by another that
 resolves the first action in some way. Often, these loops are explicitly called
@@ -873,7 +872,7 @@ especially if they are doing deep work. But often, if the topic involves both
 people and can be resolved quickly, a short conversation is worth the
 interruption and lets everyone get back to work with better clarity.
 
-### Recognize the ideas and achievements of your colleagues
+### Recognize the Ideas and Achievements of Your Colleagues
 
 Teamwork involves contributions from all team members. Whether you are a leader
 or an individual contributor, it is essential to give credit where it's due when
@@ -898,7 +897,7 @@ simple "I see what you have done" can make a real difference. It shows their
 work is noticed and appreciated, and it helps build trust and connection within
 the team.
 
-### Professional content
+### Professional Content
 
 When writing an email or chat message, even if addressed to a select group,
 consider composing it in a way that it would remain professional and consistent
@@ -989,7 +988,7 @@ https://en.wikipedia.org/wiki/Cognitive_load (and Cognitive Overload)
 "Engineers are great at solving problems but they are not always great at
 identifying the right problems to be solved" (Dr. John Thomas, ESWC 2019).
 
-### Solutions are Context-Driven
+### Solutions Are Context-Driven
 
 Even the best solution to a problem is valid only within a given context. A
 slight change in the context can invalidate the solution, requiring one to start
@@ -1035,7 +1034,7 @@ locally optimal solution X, but a colleague has experience with an alternative
 solution Y, they can help the team step back and consider alternatives in a less
 biased way.
 
-### Weakest link
+### Weakest Link
 
 A piece of information is only as clear as its most ambiguous piece. This is a
 generalisation from the following fragment from "Patterns for Writing Effective
@@ -1118,7 +1117,7 @@ skills, well-formed mental models, effective diagrams, synergies with existing
 components, or advice from a fellow engineer. The healthier and more complete
 the inputs, the more straightforward the path to a solution becomes.
 
-### Humans are not designed for Big Numbers
+### Humans Are Not Designed for Big Numbers
 
 If you have to work with something that involves a big number of entities, like
 do something on 10000 files or work with megabytes of data, start with reducing
@@ -1126,7 +1125,7 @@ this quantity to a minimum possible number of entities so that still makes sense
 for a prototype of your final work: make it work with 1 file instead of 10000 or
 with 20 bytes instead of 20 gigabytes.
 
-### There is no such thing as Many
+### There Is No Such Thing as Many
 
 Many does exist but it is difficult to cognize with a human mind. Many needs an
 Umbrella, that turns it into One in the way we think about it. Many can be
@@ -1202,7 +1201,7 @@ masking are harder to understand and more likely to cause human errors.
 
 See also: Overlapping Control.
 
-### Weighting system
+### Weighting System
 
 I often visualize software-related decision making and trade-offs, both in my
 systems engineering work and in discussions with fellow engineers, as a system
@@ -1248,7 +1247,7 @@ other way around.
 
 ## Design
 
-### Functional analysis and decomposition
+### Functional Analysis and Decomposition
 
 Before implementing a system in software or hardware, it is essential to
 understand what needs to be done, assign tasks and interfaces between teams,
@@ -1466,7 +1465,7 @@ pattern/architecture/solution and put it back into
 thansform it into a something new. Metaphors similar to Prima Materia are
 "primordial soup" and "indifferentiated soup of ideas" (Eric Evans - DDD).
 
-### Mature automation
+### Mature Automation
 
 Mature automation allows itself to be observed, inspected, and overridden. Even
 if something is automated and usually works well, there should always be a way
@@ -1477,7 +1476,7 @@ automation entirely and take manual control or use an alternative path. Systems
 that do not allow this create unnecessary friction and risk. Automation should
 support people, not trap them.
 
-### "Magic" is automation that is not adequate
+### "Magic" Is Automation That Is Not Adequate
 
 In the beginning, there is no magic, but simply a desire to automate things to
 reduce repetition. Magic appears as a result of increasing complexity that makes
@@ -1646,7 +1645,7 @@ any system.
 "All feedback loops must be closed" - this heuristic can be turned into explicit
 design constraint.
 
-### Separation / partitioning
+### Separation / Partitioning
 
 - Separate stable from unstable
 - Separate permanent from temporary
@@ -1812,7 +1811,7 @@ description of the logic, making it easier to understand and communicate.
 
 ## Coding, code reviews, and maintenance programming
 
-### Code that Works
+### Code That Works
 
 Working code with a good-enough architecture is better than buggy code with a
 perfect but overly complex architecture.
@@ -1888,7 +1887,7 @@ let expectedRemainingLoops =
   )
 ```
 
-### Avoid Plural Names For Classes
+### Avoid Plural Names for Classes
 
 Classes should represent a single entity or concept. Naming a class in the
 plural form (e.g., `Users`) can confuse its responsibility, making it seem like
@@ -1978,14 +1977,14 @@ details. A practical rule of thumb is the following: if there is an opportunity
 to split the work, it is usually better to do so, as this often pays off through
 easier reviews and faster integration.
 
-### The Moving and Changing Anti-pattern
+### The Moving and Changing Anti-Pattern
 
 A great anti-pattern that complicates code reviews is creating a changeset that
 involves both moving and changing things at the same time. This obscures the
 diffs in the version control system, making it harder to track changes. The
 solution: isolate moving and changing into separate commits or separate PRs.
 
-### Git commit names: Context: Title
+### Git Commit Names: Context: Title
 
 My experience of reading commits shows that I read commit titles better when
 they clearly indicate a context. A commit context can be the name of a topic of
@@ -2038,7 +2037,7 @@ There's no silver bullet for overcoming this bias. The key is maintaining
 deliberate skepticism and making a habit of viewing solutions from multiple
 angles.
 
-### Focusing only on what's most visible bias
+### Focusing Only on What's Most Visible Bias
 
 The tendency to concentrate a review or investigation on the most obvious,
 observable, or symptomatic parts of a system, rather than systematically
@@ -2091,7 +2090,7 @@ unintended regressions.
 
 ## Reliability
 
-### Errors are not ok
+### Errors Are Not Ok
 
 Never ignore errors. Presence of errors indicates that you don't understand your
 system well enough and therefore don't have a full control over it.
@@ -2107,27 +2106,27 @@ Errors typically ignored by developers include:
 - Build system errors
 - Errors produced by the test suites (flaky tests)
 
-### Errors must be understood and described
+### Errors Must Be Understood and Described
 
 Google for `Malfunction 54` for a good example.
 
-### Underlying errors shall not be hidden
+### Underlying Errors Shall Not Be Hidden
 
 If a higher-level error wraps some other underlying error, the information about
 the underdying error shall not be lost. Instead, it should be fully available to
 the higher-level error for error handling, logging, tracing, etc.
 
-### Critical errors vs non-critical errors
+### Critical Errors vs Non-Critical Errors
 
 Make a clear distinction between critical and non-critical errors on all levels:
 source code, software design, error reporting, documentation.
 
-### Assertions are better than no error handling
+### Assertions Are Better than No Error Handling
 
 When there is no error handling, presence of asserts gives at least some basic
 guarantee that software does not do what it is not supposed to.
 
-### Assertions are shortcuts for a proper error handling
+### Assertions Are Shortcuts for a Proper Error Handling
 
 Every assert becomes a proper error handling eventually.
 
@@ -2153,7 +2152,7 @@ Ability to do TDD is not a binary "can or cannot", it is about having 1001
 things in your toolbox: techniques, patterns, tricks and hacks - when you have
 enough of them you can test almost everything.
 
-### Legacy Code is Code Without Tests
+### Legacy Code Is Code without Tests
 
 As Michael Feathers puts it in Working Effectively with Legacy Code, "Legacy
 code is code without tests."
@@ -2180,7 +2179,7 @@ then we are simply not there yet with the quality of our code or with the
 corresponding toolset and testing infrastructure. But we will manage to find or
 improve them and get there.
 
-### Getting the first test to work
+### Getting the First Test to Work
 
 If you don't know, or are not sure, how to test something properly, try the
 ugliest version first: stub everything in an ugly way, stub the network in an
@@ -2272,7 +2271,7 @@ Design File, or similar, depending on the team or industry. Whatever the name,
 its role is the same: to serve as the central, navigable entry point into the
 software's structure and design.
 
-### Less prose, more structure
+### Less Prose, More Structure
 
 Technical documentation is supposed to focus engineer's attention on achieving a
 given goal such as to build a specific system. It is easier to focus one's
@@ -2332,7 +2331,7 @@ smoothly. A good rule of thumb is to join:
 - 15-30+ minutes early for important meetings, to handle any technical issues in
   advance.
 
-### Ensure the key people are attending
+### Ensure the Key People Are Attending
 
 Some meetings have key attendees who must be present for the meeting to be
 effective. Make sure all key people have checked in and no one is left out.
@@ -2400,7 +2399,7 @@ Common pitfalls:
   main agenda. This is especially problematic when an individual undermines the
   shared position of the team by introducing misalignment.
 
-### Briefing out
+### Briefing Out
 
 When a meeting involves an external party, it is sometimes useful to meet again
 with a smaller group in a so-called debrief meeting to discuss the results and
@@ -2425,7 +2424,7 @@ activities and the latest project status.
 
 ## Systems
 
-### Good enough is often best
+### Good Enough Is Often Best
 
 "Good enough for each part is often best for the whole system." ("The Art of
 Systems Thinking")
@@ -2467,7 +2466,7 @@ a Risk Registry can support the structured resolution of such trade-offs.
 
 ## People and Organizations
 
-### Everyone is busy
+### Everyone Is Busy
 
 Everyone is busy, including you. The development of software products often
 takes place in rushed environments, where everyone is focused on achieving
@@ -2532,7 +2531,7 @@ and a [similar one](https://martialarts.stackexchange.com/a/7133/7133):
 > "Well", said Banzo, "in that case you will have to remain with me for seventy
 > years. A man in such a hurry as you are to get results seldom learns quickly."
 
-### Four seasons
+### Four Seasons
 
 It is an amusing analogy: like a year starts with a spring and ends with a
 winter, a similar lifecycle can be observed in a growth of organizations.
@@ -2594,7 +2593,7 @@ Spring-Summer-Autumn seasons.
 
 ## Standards
 
-### Idealized standards vs. practical implementation
+### Idealized Standards vs. Practical Implementation
 
 Standards provide an idealized or encyclopedic view of how systems should
 function and how products should be developed. Frequently, a standard represents
@@ -2608,23 +2607,23 @@ them. Recognizing this, some standards explicitly account for a company's
 maturity level and offer recommendations on which parts to implement at
 different stages of development.
 
-### The challenge of standards implementation
+### The Challenge of Standards Implementation
 
 Implementing standards and managing their results within an organization can be
 difficult and complex. However, without any standards, everything becomes 10 to
 100 times harder and more chaotic.
 
-### Standards and best practices
+### Standards and Best Practices
 
 Standards seek out best practices, collect them, and generalize them.
 
-### Standards favor good practice
+### Standards Favor Good Practice
 
 Standards favor good practices. If a company has adopted a practice that is not
 yet conventional but makes sense and adds value, it is unlikely that this
 practice would be rejected or deemed inappropriate by any standard.
 
-### Wrong is worse than early or incomplete
+### Wrong Is Worse than Early or Incomplete
 
 Sometimes it is worse to be wrong than to be early or lack information. The
 context: passing the project review milestones required by standards.
@@ -2658,7 +2657,7 @@ conventions is behind it.
 
 ## Requirements
 
-### One-stop shopping
+### One-Stop Shopping
 
 > "One-stop shopping" is a useful requirements writing priciple. Simply, people
 > reading the requirements should be able to get all the information they need
@@ -2668,7 +2667,7 @@ conventions is behind it.
 
 ## Safety
 
-### Safety does not exist without blood, loss or failure
+### Safety Does Not Exist without Blood, Loss or Failure
 
 Safety is not there from the very beginning. A gloomy poet could say that safety
 blooms on blood. Safety does also not exist on its own: you first need to build
@@ -2679,14 +2678,14 @@ appreciated.
 Consequence: safety is especially sound for those folks who have some experience
 of dealing with blood, loss or failure.
 
-### Safety is boring
+### Safety Is Boring
 
 When implemented well enough, safety becomes boring. Everything is working, no
 one complains. At that moment, it is easier than ever to forget about why the
 safety is there in the first place. Example: how often do we bother to look at
 the safety manuals? Does it mean that the safety is there?
 
-### Safety is very hard to achieve but is very easy to lose
+### Safety Is Very Hard to Achieve but Is Very Easy to Lose
 
 Safety is the extremely fragile and sensitive property of the systems. It so
 much effort that is put into achieving it and still it is so easy to let the
@@ -2699,7 +2698,7 @@ whole system get down. Some of the very popular reasons for the failure are:
 
 Consequence: safety requires continuous and intelligent effort.
 
-### Success breeds failure
+### Success Breeds Failure
 
 Handbook of Walkthroughs, Inspections, and Technical Reviews, p.412:
 
@@ -2732,7 +2731,7 @@ sidelined until it's too late. In this way, safety acts like a belt that holds
 uncontrolled progress together, preventing it from falling apart when the
 inevitable risks are not properly addressed.
 
-### Safety for Engineering is Like Medicine for People
+### Safety for Engineering Is like Medicine for People
 
 Medicine isn't the most exciting thing, and no one wants to spend all their time
 thinking about it. But it's clear that humanity can't thrive without it, even
