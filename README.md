@@ -1899,10 +1899,10 @@ vary.
 
 ### Lack of Knowledge
 
-Bad code stems from a lack of knowledge, not malice, even though both bad code
-and malice share unawareness as their root cause. Sometimes, it helps to put on
-a "lack-of-knowledge hat" to better understand the intentions behind the code
-you're reading.
+Bad code usually stems from a lack of knowledge, not from malice, even though
+both bad code and malice may share unawareness as their root cause. Sometimes it
+helps to put on a "lack of knowledge hat" to better understand the intentions
+behind the code you are reading.
 
 ### Lack of Knowledge II
 
