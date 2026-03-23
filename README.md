@@ -130,8 +130,8 @@ arbitrarily. Please do not expect it to be polished.
   - [Lack of Knowledge II](#lack-of-knowledge-ii)
   - [Goodwill vs Pain](#goodwill-vs-pain)
 - [Version control, Git, code reviews](#version-control-git-code-reviews)
-  - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
   - [Git Commit Names: Context: Title](#git-commit-names-context-title)
+  - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
   - [Single Responsibility Principle for Merge Requests](#single-responsibility-principle-for-merge-requests)
   - [The Moving and Changing Anti-Pattern](#the-moving-and-changing-anti-pattern)
   - [Deferred Moving Anti-Pattern](#deferred-moving-anti-pattern)
@@ -1962,24 +1962,6 @@ goodwill.
 
 ## Version control, Git, code reviews
 
-### Simplifying Complex Feature Branches
-
-When working on a non-trivial feature branch, consider breaking it down into its
-core functionality while separating any trivial or unrelated changes that can be
-integrated independently.
-
-A complex branch can often become more manageable, or even medium in scope, when
-distilled into its essential parts and split into smaller, separate changes. In
-some cases, breaking it down properly can eliminate the complexity entirely,
-leaving only straightforward, incremental updates.
-
-Experience shows that splitting work into smaller pieces helps reveal subtle
-issues or even bugs more easily. This happens because both the author and the
-reviewers can focus on a smaller scope without being distracted by irrelevant
-details. A practical rule of thumb is the following: if there is an opportunity
-to split the work, it is usually better to do so, as this often pays off through
-easier reviews and faster integration.
-
 ### Git Commit Names: Context: Title
 
 My experience of reading commits shows that I read commit titles better when
@@ -2002,6 +1984,24 @@ through history.
 Sometimes the context can be omitted if the commit message itself tells enough
 of the story, especially when a project is just starting or is very small. Most
 of the time, however, I find that using a context is very useful.
+
+### Simplifying Complex Feature Branches
+
+When working on a non-trivial feature branch, consider breaking it down into its
+core functionality while separating any trivial or unrelated changes that can be
+integrated independently.
+
+A complex branch can often become more manageable, or even medium in scope, when
+distilled into its essential parts and split into smaller, separate changes. In
+some cases, breaking it down properly can eliminate the complexity entirely,
+leaving only straightforward, incremental updates.
+
+Experience shows that splitting work into smaller pieces helps reveal subtle
+issues or even bugs more easily. This happens because both the author and the
+reviewers can focus on a smaller scope without being distracted by irrelevant
+details. A practical rule of thumb is the following: if there is an opportunity
+to split the work, it is usually better to do so, as this often pays off through
+easier reviews and faster integration.
 
 ### Single Responsibility Principle for Merge Requests
 
