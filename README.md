@@ -131,7 +131,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Goodwill vs Pain](#goodwill-vs-pain)
 - [Version control, Git, code reviews](#version-control-git-code-reviews)
   - [Git Commit Names: Context: Title](#git-commit-names-context-title)
-  - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
+  - [Simplifying Complex Branches](#simplifying-complex-branches)
   - [Single Responsibility Principle for Merge Requests](#single-responsibility-principle-for-merge-requests)
   - [The Moving and Changing Anti-Pattern](#the-moving-and-changing-anti-pattern)
   - [Deferred Moving Anti-Pattern](#deferred-moving-anti-pattern)
@@ -1985,9 +1985,9 @@ Sometimes the context can be omitted if the commit message itself tells enough
 of the story, especially when a project is just starting or is very small. Most
 of the time, however, I find that using a context is very useful.
 
-### Simplifying Complex Feature Branches
+### Simplifying Complex Branches
 
-When working on a non-trivial feature branch, consider breaking it down into its
+When working on a non-trivial Git branch, consider breaking it down into its
 core functionality while separating any trivial or unrelated changes that can be
 integrated independently.
 
