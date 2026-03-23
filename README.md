@@ -51,6 +51,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Agile Software Development Requires Strong Social Network](#agile-software-development-requires-strong-social-network)
   - [Sending Status Updates to the Team](#sending-status-updates-to-the-team)
   - [Close the Loops, Acknowledge Communication, Always Follow Up](#close-the-loops-acknowledge-communication-always-follow-up)
+  - [Don't block the flow of communication](#dont-block-the-flow-of-communication)
   - [Communicate with Clear Structure](#communicate-with-clear-structure)
   - [Give Structure-Preserving Responses](#give-structure-preserving-responses)
   - [Keep Everyone in the Loop](#keep-everyone-in-the-loop)
@@ -755,6 +756,23 @@ Not closing loops is often bad practice. Some examples include:
   delivered to a critical person.
 - A manager neglecting to follow up on an important topic raised by employees,
   leaving it unresolved in an inbox without due attention.
+
+### Don't block the flow of communication
+
+Sometimes you are part of someone else's communication loop, and they depend on
+you to provide information. It may happen that you do not have the answer, but
+you are still in a good position to help obtain it.
+
+In such cases, if you do not know the answer yet, consider how you can support
+your colleague. You can follow up later with the information, or redirect the
+request to someone who is more likely to know. A common approach is to extend
+the current conversation and include relevant experts who can support the
+discussion.
+
+The right approach depends on the situation, but often a small, proactive step,
+such as forwarding the question or connecting the right people, can
+significantly improve the flow of information. This helps unblock communication
+and allows everyone involved to continue their work.
 
 ### Communicate with Clear Structure
 
