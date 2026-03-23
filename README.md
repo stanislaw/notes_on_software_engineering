@@ -179,6 +179,7 @@ arbitrarily. Please do not expect it to be polished.
   - [Briefing Out](#briefing-out)
   - [Sharing Screen & Presenting Material](#sharing-screen--presenting-material)
 - [Systems](#systems)
+  - [Understand The System Deeply Enough To Make Changes](#understand-the-system-deeply-enough-to-make-changes)
   - [Good Enough Is Often Best](#good-enough-is-often-best)
   - [Designing Systems for Effective Work](#designing-systems-for-effective-work)
   - [The Risk of Default Outcomes](#the-risk-of-default-outcomes)
@@ -2506,6 +2507,30 @@ activities and the latest project status.
   beforehand to ensure consistency in messaging.
 
 ## Systems
+
+### Understand The System Deeply Enough To Make Changes
+
+When working with an existing system, it is often tempting to start changing or
+optimizing it immediately. However, this can happen without fully understanding
+what makes the system what it is - its strengths and its weaknesses.
+
+Due to limited time or information, it is not always easy to see both the
+strengths and weaknesses of a system. What may seem like an obvious aspect of
+the system might not actually be part of its core foundation.
+
+One useful way to think about a system is to distinguish between its core and
+its interface (or manifestation). A system can be very strong and valuable at
+its core, even if its interface appears unattractive or outdated.
+
+Another helpful analogy is that every system has a "shadow". This shadow
+represents the trade-offs behind the system, e.g., the alternative solutions
+that were not chosen, often for good reasons. Every system has such trade-offs
+because real-world systems are complex and must balance many competing forces.
+
+When considering changes to an existing system, try to understand its core
+structure and the trade-offs involved. If you plan to replace or significantly
+modify the system, consider whether the new solution will truly serve you better
+and whether you fully understand what you might lose in the process.
 
 ### Good Enough Is Often Best
 
