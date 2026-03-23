@@ -131,8 +131,11 @@ arbitrarily. Please do not expect it to be polished.
   - [Goodwill vs Pain](#goodwill-vs-pain)
 - [Version control, Git, code reviews](#version-control-git-code-reviews)
   - [Simplifying Complex Feature Branches](#simplifying-complex-feature-branches)
-  - [The Moving and Changing Anti-Pattern](#the-moving-and-changing-anti-pattern)
   - [Git Commit Names: Context: Title](#git-commit-names-context-title)
+  - [Single Responsibility Principle for Merge Requests](#single-responsibility-principle-for-merge-requests)
+  - [The Moving and Changing Anti-Pattern](#the-moving-and-changing-anti-pattern)
+  - [Deferred Moving Anti-Pattern](#deferred-moving-anti-pattern)
+  - [Multiple Unrelated Topics in One Change Anti-Pattern](#multiple-unrelated-topics-in-one-change-anti-pattern)
 - [Biases](#biases)
   - [If It Works, Then It Works Bias](#if-it-works-then-it-works-bias)
   - [Focusing Only on What's Most Visible Bias](#focusing-only-on-whats-most-visible-bias)
@@ -1977,13 +1980,6 @@ details. A practical rule of thumb is the following: if there is an opportunity
 to split the work, it is usually better to do so, as this often pays off through
 easier reviews and faster integration.
 
-### The Moving and Changing Anti-Pattern
-
-A great anti-pattern that complicates code reviews is creating a changeset that
-involves both moving and changing things at the same time. This obscures the
-diffs in the version control system, making it harder to track changes. The
-solution: isolate moving and changing into separate commits or separate PRs.
-
 ### Git Commit Names: Context: Title
 
 My experience of reading commits shows that I read commit titles better when
@@ -2006,6 +2002,75 @@ through history.
 Sometimes the context can be omitted if the commit message itself tells enough
 of the story, especially when a project is just starting or is very small. Most
 of the time, however, I find that using a context is very useful.
+
+### Single Responsibility Principle for Merge Requests
+
+A merge request review is much easier when the MR is dedicated to only one
+aspect of change, so the reviewer can focus on that aspect.
+
+- **Behavioral changes:**
+  - Adding new features
+  - Refactoring or improving existing software
+  - Deleting features
+
+- **Mechanical changes:**
+  - Moving files or folders
+  - Renaming classes, functions, variables, files, or folders
+
+Ideally, each merge request should cover only one aspect, e.g.,
+`Adding new features` and should not mix behavioral and mechanical changes.
+
+Some examples of anti-patterns make reviews especially difficult:
+
+- The Moving and Changing Anti-Pattern
+- The Deferred Moving Anti-Pattern
+- The Multiple Topics in One Change Anti-Pattern
+
+### The Moving and Changing Anti-Pattern
+
+A common anti-pattern that complicates code reviews is combining moving and
+changing in the same changeset.
+
+Code is moved to a new location and refactored at the same time.
+
+This obscures the diffs in the version control system and makes it harder to
+track what exactly has changed.
+
+When code is only moved, and both the author and reviewer agree on this, the
+reviewer can spend less effort verifying the change. When the code is also
+modified, the reviewer must spend additional effort to understand and validate
+the changes.
+
+**Solution:** Isolate moving and changing into separate commits or separate
+merge requests.
+
+### Deferred Moving Anti-Pattern
+
+An anti-pattern to avoid when creating a merge request is **deferred moving**.
+
+Code is first copied to a new location and then removed from the old location in
+later commits. This approach makes it hard for a reviewer to track how things
+are preserved or modified across commits. Instead of a single logical change,
+the reviewer has to follow multiple steps.
+
+**Solution:** Consolidate moving into one commit. Avoid deferred moving.
+
+### Multiple Unrelated Topics in One Change Anti-Pattern
+
+The main topic of a merge request is A, but some commits introduce changes
+related to topics B, C, etc.
+
+A somewhat acceptable variation is when topic A is clearly isolated in dedicated
+commits, separate from the commits that address B, C, etc.
+
+A less acceptable variation is when unrelated topics A, B, C, etc. are combined
+within the same commit.
+
+In any case, including multiple topics in a single change increases the burden
+on the reviewer, who must verify not only A but also B and C.
+
+**Solution:** Isolate unrelated topics into separate commits. Better into
+separate pull/merge requests.
 
 ## Biases
 
