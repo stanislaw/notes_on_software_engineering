@@ -1685,6 +1685,7 @@ design constraint.
   OOP class/object with good data/behavior balance.
 - Separate general-purpose from application-specific
 - Separate application-level code from system-level code
+- Separate core behavior and business logic from lower-level infrastructure details. 
 - Separate methods that read from methods that write
 - Separate decision from condition
 - Separate/abstract interface from implementation
